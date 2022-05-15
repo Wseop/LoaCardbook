@@ -1,0 +1,53 @@
+.card-wrap {
+    position: relative;
+}
+.card-wrap {
+    position: relative;
+}
+.card-count {
+    position: absolute;
+    top: 9%;
+    right: 11%;
+}
+.card-awaken {
+    position: absolute;
+    top: 80%;
+    left: 1%;
+}
+.card-update {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+}
+
+.data-grade-0 {
+    color: black;
+}
+.data-grade-1 {
+    color: #6fc300;
+}
+.data-grade-2 {
+    color: #00b5ff;
+}
+.data-grade-3 {
+    color: #bf00fe;
+}
+.data-grade-4 {
+    color: #f39303;
+}
+
+.border-grade-0 {
+    border: solid 3px black;
+}
+.border-grade-1 {
+    border: solid 3px #6fc300;
+}
+.border-grade-2 {
+    border: solid 3px #00b5ff;
+}
+.border-grade-3 {
+    border: solid 3px #bf00fe;
+}
+.border-grade-4 {
+    border: solid 3px #f39303;
+}

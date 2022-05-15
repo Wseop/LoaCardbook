@@ -1,0 +1,910 @@
+[
+	{
+		"name": "세상을 구하는 빛",
+		"cardList": ["샨디", "아제나&amp;이난나", "니나브", "카단", "바훈투르", "실리안", "웨이"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "암속성 피해 감소 +10.00%"
+			},
+			{
+				"count": "4",
+				"description": "암속성 피해 감소 +10.00%"
+			},
+			{
+				"count": "6",
+				"description": "암속성 피해 감소 +10.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "공격 속성을 성속성으로 변환"
+			},
+			{
+				"count": "18",
+				"description": "성속성 피해 +7.00%"
+			},
+			{
+				"count": "30",
+				"description": "성속성 피해 +8.00%"
+			}
+		]
+	},
+	{
+		"name": "필드 보스 &#8545",
+		"cardList": ["마네스", "타르실라", "솔 그랑데", "브리아레오스", "수신 아포라스", "고르카그로스", "아드린느"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "최대 생명력 +4.00%"
+			},
+			{
+				"count": "4",
+				"description": "최대 생명력 +4.00%"
+			},
+			{
+				"count": "6",
+				"description": "최대 생명력 +4.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "18",
+				"description": "치명타 적중률 +2.00%"
+			},
+			{
+				"count": "30",
+				"description": "파티 및 공격대가 아닐 경우 공격력이 4% 증가한다."
+			}
+		]
+	},
+	{
+		"name": "가디언의 광기",
+		"cardList": ["중갑 나크라세나", "벨가누스", "아카테스", "혹한의 헬가이아", "레바노스", "용암 크로마니움", "이그렉시온"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "뇌속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "뇌속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "뇌속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "추가 피해 +4.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 속성을 토속성으로 변환"
+			}
+		]
+	},
+	{
+		"name": "가디언의 포효",
+		"cardList": ["루메루스", "우르닐", "빙결의 레기오로스", "어둠의 레기오로스", "크로마니움", "나크라세나", "칼엘리고스"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "화속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "화속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "화속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "치명타 적중률 +4.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 속성을 수속성으로 변환"
+			}
+		]
+	},
+	{
+		"name": "남겨진 바람의 절벽",
+		"cardList": ["아만", "세리아", "집행관 솔라스", "국왕 실리안", "카마인", "데런 아만"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "암속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "암속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "암속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "치명타 적중률 +7.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 적중 시 대상이 자신 및 파티원에게 받는 성속성 피해량이 3.5% 증가"
+			}
+		]
+	},
+	{
+		"name": "운명의 만남 &#8544",
+		"cardList": ["아만", "실리안", "가디언 루", "에스더 시엔", "뮨 히다카", "오스피어"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "모험가에게 받는 피해 7% 감소"
+			},
+			{
+				"count": "4",
+				"description": "모험가에게 받는 피해 7% 감소"
+			},
+			{
+				"count": "6",
+				"description": "모험가에게 받는 피해 7% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "생명력이 50% 이하인 모험가에게 공격 적중 시, 주는 피해 5% 증가"
+			},
+			{
+				"count": "18",
+				"description": "이동기와 기상기의 재사용 대기시간 감소 10.00%"
+			},
+			{
+				"count": "30",
+				"description": "생명력이 10% 이하인 모험가에게 공격 적중 시, 대상에게 번개 피해를 발생시킨다. (발동 재사용 대기시간 60초)"
+			}
+		]
+	},
+	{
+		"name": "대사부 시험",
+		"cardList": ["가디언 루", "파한", "호동", "객주도사", "월향도사", "수령도사"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "뇌속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "뇌속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "뇌속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "추가 피해 +2.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 적중 시 대상이 자신 및 파티원에게 받는 토속성 피해량이 2.5% 증가"
+			}
+		]
+	},
+	{
+		"name": "창의 달인",
+		"cardList": ["라하르트", "진저웨일", "몽환의 나이트", "엘버하스틱", "아르카디아", "하이비 집행관"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "성속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "성속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "성속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "18",
+				"description": "공격력 +4.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 적중 시 대상이 자신 및 파티원에게 받는 암속성 피해량이 2.5% 증가"
+			}
+		]
+	},
+	{
+		"name": "가디언의 위협",
+		"cardList": ["흑야의 요호", "칼벤투스", "헬가이아", "베르투스", "홍염의 요호", "타이탈로스"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "토속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "토속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "토속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "치명타 피해 +8.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 속성을 화속성으로 변환"
+			}
+		]
+	},
+	{
+		"name": "루테란의 시련",
+		"cardList": ["마법사 로나운", "에스더 루테란", "자간", "릭투스", "로블롬", "윌리윌리"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "화속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "화속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "화속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "18",
+				"description": "추가 피해 +4.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 적중 시 대상이 자신 및 파티원에게 받는 수속성 피해량이 2.5% 증가"
+			}
+		]
+	},
+	{
+		"name": "무기여 잘 있거라",
+		"cardList": ["패자의 검", "벨크루제", "파르쿠나스", "진멸의 창", "피요르긴", "나히니르"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "최대 생명력 +4.00%"
+			},
+			{
+				"count": "4",
+				"description": "최대 생명력 +4.00%"
+			},
+			{
+				"count": "6",
+				"description": "최대 생명력 +4.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "30",
+				"description": "공격 적중 시 일정 확률로 10초간 치명타 확률 24% 증가"
+			}
+		]
+	},
+	{
+		"name": "씬 스틸러",
+		"cardList": ["아델", "페데리코", "하백", "슈헤리트", "엔비스카", "칼트말루스"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "수속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "수속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "수속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "공격력 +4.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 속성을 뇌속성으로 전환"
+			}
+		]
+	},
+	{
+		"name": "에어가이츠 계획",
+		"cardList": ["마리 파우렌츠", "에스", "제이", "안톤", "세비엘", "진화의 군주 카인"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "수속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "수속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "수속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "18",
+				"description": "공격력 +2.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 적중 시 대상이 자신 및 파티원에게 받는 뇌속성 피해량이 1.5% 증가"
+			}
+		]
+	},
+	{
+		"name": "자연의 정령들",
+		"cardList": ["자히아", "리게아스", "에페르니아", "그노시스", "실페리온", "운다트"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "내 생명력이 50% 이하일 때, 받는 피해 8% 감소"
+			},
+			{
+				"count": "4",
+				"description": "내 생명력이 50% 이하일 때, 받는 피해 8% 감소"
+			},
+			{
+				"count": "6",
+				"description": "내 생명력이 50% 이하일 때, 받는 피해 8% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "이동 속도 +4.00%"
+			},
+			{
+				"count": "30",
+				"description": "에테르 획득 시, 주변 적들에게 자신 최대 생명력의 50% 만큼 마법 피해를 준다."
+			}
+		]
+	},
+	{
+		"name": "전쟁 후에 남는 것",
+		"cardList": ["다르시", "아르노", "바스키아", "앙케", "피엘라", "로웬 젠로드"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "모험가에게 받는 피해 5% 감소"
+			},
+			{
+				"count": "4",
+				"description": "모험가에게 받는 피해 5% 감소"
+			},
+			{
+				"count": "6",
+				"description": "모험가에게 받는 피해 5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "18",
+				"description": "생명력이 50% 이하인 모험가에게 공격 적중 시, 주는 피해 4% 증가"
+			},
+			{
+				"count": "30",
+				"description": "이동기와 기상기의 재사용 대기시간 감소 10.00%"
+			}
+		]
+	},
+	{
+		"name": "하늘을 비추는 사막",
+		"cardList": ["소금거인", "천둥", "모리나", "다단", "자이언트 웜", "타나토스"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "토속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "4",
+				"description": "토속성 피해 감소 +8.00%"
+			},
+			{
+				"count": "6",
+				"description": "토속성 피해 감소 +9.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "18",
+				"description": "추가 피해 +2.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 적중 시 대상이 자신 및 파티원에게 받는 화속성 피해량이 1% 증가"
+			}
+		]
+	},
+	{
+		"name": "해적 시대",
+		"cardList": ["검은이빨", "히바이크", "녹스", "세티노", "붉은 남작 에디", "칼바서스"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "럭키 몬스터에게 주는 피해가 100% 증가한다."
+			},
+			{
+				"count": "4",
+				"description": "럭키 몬스터에게 주는 피해가 100% 증가한다."
+			},
+			{
+				"count": "6",
+				"description": "럭키 몬스터에게 주는 피해가 100% 증가한다."
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "18",
+				"description": "공격 속도 +4.00%"
+			},
+			{
+				"count": "30",
+				"description": "공격 속도 +10.00%"
+			}
+		]
+	},
+	{
+		"name": "트리시온",
+		"cardList": ["신뢰의 아크 아스타", "창조의 아크 오르투스", "예지의 아크 아가톤", "희망의 아크 엘피스", "지혜의 아크 라디체", "헌신의 아크 카르타", "영원의 아크 카양겔"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "모든 속성 피해 감소 +5.00%"
+			},
+			{
+				"count": "4",
+				"description": "모든 속성 피해 감소 +5.00%"
+			},
+			{
+				"count": "6",
+				"description": "모든 속성 피해 감소 +5.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "속성 피해 +4.00%"
+			},
+			{
+				"count": "30",
+				"description": "속성 피해 +10.00%"
+			}
+		]
+	},
+	{
+		"name": "카제로스의 군단장",
+		"cardList": ["발탄", "일리아칸", "비아키스", "아브렐슈드", "카멘", "쿠크세이튼"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "성속성 피해 감소 +10.00%"
+			},
+			{
+				"count": "4",
+				"description": "성속성 피해 감소 +10.00%"
+			},
+			{
+				"count": "6",
+				"description": "성속성 피해 감소 +10.00%"
+			}
+		],`
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "공격 속성을 암속성으로 전환"
+			},
+			{
+				"count": "18",
+				"description": "암속성 피해 +7.00%"
+			},
+			{
+				"count": "30",
+				"description": "암속성 피해 +8.00%"
+			}
+		]
+	},
+	{
+		"name": "사랑꾼",
+		"cardList": ["원포", "헨리", "프랭크", "케이사르"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "이동기 재사용 대기시간이 10% 감소한다."
+			},
+			{
+				"count": "4",
+				"description": "이동기 사용 시 10%의 확률로 재사용 대기시간이 초기화된다."
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "이동 속도 +4.00%"
+			},
+			{
+				"count": "20",
+				"description": "이동 속도 +8.00%"
+			}
+		]
+	},
+	{
+		"name": "남부에 떠오른 태양",
+		"cardList": ["제레온", "루드벡", "하템", "키에사"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "내 생명력이 50% 이하일 때, 받는 피해 8% 감소"
+			},
+			{
+				"count": "4",
+				"description": "내 생명력이 50% 이하일 때, 받는 피해 8% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "이동 속도 +2.00%"
+			},
+			{
+				"count": "20",
+				"description": "이동 속도 +3.00%"
+			}
+		]
+	},
+	{
+		"name": "백귀야행",
+		"cardList": ["반다", "미령", "도철", "삭월"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "시드 몬스터에게 받는 피해 5% 감소"
+			},
+			{
+				"count": "4",
+				"description": "시드 몬스터에게 받는 피해 5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "8",
+				"description": "시드 몬스터에게 주는 피해 1% 증가"
+			},
+			{
+				"count": "20",
+				"description": "시드 몬스터에게 주는 피해 3% 증가"
+			}
+		]
+	},
+	{
+		"name": "사령술의 대가",
+		"cardList": ["지그문트", "가룸", "나베갈", "고르곤"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "보스 몬스터에게 받는 피해 5% 감소"
+			},
+			{
+				"count": "4",
+				"description": "보스 몬스터에게 받는 피해 5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "8",
+				"description": "보스 몬스터에게 주는 피해 1% 증가"
+			},
+			{
+				"count": "20",
+				"description": "보스 몬스터에게 주는 피해 3% 증가"
+			}
+		]
+	},
+	{
+		"name": "오레하의 우물",
+		"cardList": ["니아", "샤나", "알비온", "광기를 잃은 쿠크세이튼"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "어비스 레이드 몬스터에게 받는 피해 5% 감소"
+			},
+			{
+				"count": "4",
+				"description": "어비스 레이드 몬스터에게 받는 피해 5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "12",
+				"description": "대상의 생명력이 30% 이하일 때, 주는 피해 7.5% 증가"
+			},
+			{
+				"count": "20",
+				"description": "대상의 생명력이 30% 이하일 때, 주는 피해 20% 증가"
+			}
+		]
+	},
+	{
+		"name": "인간으로 죽는다는 것",
+		"cardList": ["혼돈의 사이카", "칼도르", "비올레", "굴딩"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "하급 및 일반 몬스터에게 받는 피해 5% 감소"
+			},
+			{
+				"count": "4",
+				"description": "하급 및 일반 몬스터에게 받는 피해 5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "8",
+				"description": "피격이상 및 상태이상 대상에게 주는 피해 3# 증가"
+			},
+			{
+				"count": "20",
+				"description": "피격이상 및 상태이상 대상에게 주는 피해 9% 증가"
+			}
+		]
+	},
+	{
+		"name": "책을 읽읍시다",
+		"cardList": ["오렐다", "루티아", "에아달린", "토토마"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "모든 속성 피해 감소 +5.00%"
+			},
+			{
+				"count": "4",
+				"description": "모든 속성 피해 감소 +5.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "8",
+				"description": "치명타 피해 +2.00%"
+			},
+			{
+				"count": "20",
+				"description": "치명타 피해 +5.00%"
+			}
+		]
+	},
+	{
+		"name": "살아서 다시 보길 바란다",
+		"cardList": ["진 매드닉", "바에단", "시안"],
+		"effects": [
+			{
+				"count": "3",
+				"description": "내 생명력이 50% 이하일 때, 받는 피해 12% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "9",
+				"description": "내 생명력이 50% 이하일 때, 받는 피해 16% 감소"
+			},
+			{
+				"count": "15",
+				"description": "내 생명력이 20% 이하일 때 피격 시, 5초 간 체력이 빠르게 회복 (재사용 대기시간 10분)"
+			}
+		]
+	},
+	{
+		"name": "세 우마르가 오리라",
+		"cardList": ["에이케르", "나베르", "에스더 갈라투르"],
+		"effects": [
+			{
+				"count": "3",
+				"description": "가디언 토벌 시 가디언에게 받는 피해 7.5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "6",
+				"description": "백어택 성공 시 적에게 주는 피해 2% 증가"
+			},
+			{
+				"count": "15",
+				"description": "백어택 성공 시 적에게 주는 피해 10% 증가"
+			}
+		]
+	},
+	{
+		"name": "침묵하는 거인의 숲",
+		"cardList": ["거신 카스피엘", "모카모카", "수호자 티르"],
+		"effects": [
+			{
+				"count": "3",
+				"description": "회복 아이템의 효과가 15% 증가한다."
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "9",
+				"description": "물리 방어력 +10.00%, 마법 방어력 +10.00%"
+			},
+			{
+				"count": "15",
+				"description": "물리 방어력 +20.00%, 마법 방어력 +20.00%"
+			}
+		]
+	},
+	{
+		"name": "가디언의 응징",
+		"cardList": ["데스칼루다", "쿤겔라니움", "하누마탄"],
+		"effects": [
+			{
+				"count": "3",
+				"description": "가디언 토벌 시 가디언에게 받는 피해 7.5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "6",
+				"description": "공격 속도 +2.50%"
+			},
+			{
+				"count": "15",
+				"description": "공격 적중 시 12초 동안 공격 속도가 2.5% 증가하는 효과를 획득한다. (최대 3 중첩, 발동 재사용 대기시간 2.5초) 해당 효과는 피격 시 제거된다."
+			}
+		]
+	},
+	{
+		"name": "복수는 나의 것",
+		"cardList": ["하눈", "마리나", "레퓌스"],
+		"effects": [
+			{
+				"count": "3",
+				"description": "모험가에게 받는 피해 4% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "6",
+				"description": "모험가에게 받는 피해 5% 감소"
+			},
+			{
+				"count": "15",
+				"description": "이동기 사용 시 12%의 확률로 재사용 대기시간이 초기화된다."
+			}
+		]
+	},
+	{
+		"name": "삼두정치",
+		"cardList": ["바스티안", "사샤", "카인"],
+		"effects": [
+			{
+				"count": "3",
+				"description": "가디언 토벌 시 가디언에게 받는 피해 7.5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "9",
+				"description": "가디언 토벌 시 가디언에게 주는 피해 1.5% 증가"
+			},
+			{
+				"count": "15",
+				"description": "가디언 토벌 시 가디언에게 주는 피해 4.5% 증가"
+			}
+		]
+	},
+	{
+		"name": "플라티나의 주민들",
+		"cardList": ["에버그레이스", "두키킹", "혼재의 추오"],
+		"effects": [
+			{
+				"count": "3",
+				"description": "가디언 토벌 시 가디언에게 받는 피해 7.5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "6",
+				"description": "헤드어택 성공 시 적에게 주는 피해 2% 증가"
+			},
+			{
+				"count": "15",
+				"description": "헤드어택 성공 시 적에게 주는 피해 10% 증가"
+			}
+		]
+	},
+	{
+		"name": "라제니스의 운명",
+		"cardList": ["베아트리스", "알레그로"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "모든 속성 피해 감소 +5.00%"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "4",
+				"description": "속성 피해 +2.00%"
+			},
+			{
+				"count": "10",
+				"description": "공격 적중 시 일정 확률로 8초간 모든 속성 피해 24% 증가 (재사용 대기시간 32초)"
+			}
+		]
+	},
+	{
+		"name": "운명의 무게",
+		"cardList": ["에스더 시엔", "사이카"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "하급 및 일반 몬스터에게 받는 피해 5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "6",
+				"description": "하급 및 일반 몬스터에게 주는 피해 3% 증가"
+			},
+			{
+				"count": "10",
+				"description": "공격 적중 시 일정 확률로 10초간 주변에 피해를 주는 효과를 생성 (재사용 대기시간 40초)"
+			}
+		]
+	},
+	{
+		"name": "혼돈의 가디언 &#8544",
+		"cardList": ["미스틱", "카이슈테르"],
+		"effects": [
+			{
+				"count": "2",
+				"description": "어비스 레이드 몬스터에게 받는 피해 5% 감소"
+			}
+		],
+		"awakenEffects": [
+			{
+				"count": "4",
+				"description": "어비스 레이드 몬스터에게 주는 피해 1% 증가"
+			},
+			{
+				"count": "10",
+				"description": "어비스 레이드 몬스터에게 주는 피해 3% 증가"
+			}
+		]
+	},
+]
