@@ -20,9 +20,14 @@
     top: 100px;
     left: 8px;
 }
+.card-acquisition {
+    position: absolute;
+    z-index: 2;
+    width: max-content;
+}
 
 .data-grade-0 {
-    color: black;
+    color: grey;
 }
 .data-grade-1 {
     color: #6fc300;
@@ -38,7 +43,7 @@
 }
 
 .border-grade-0 {
-    border: solid 3px black;
+    border: solid 3px grey;
 }
 .border-grade-1 {
     border: solid 3px #6fc300;

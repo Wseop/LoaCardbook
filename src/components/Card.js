@@ -9,6 +9,7 @@ const countToReserve = [0, 0, 1, 0, 1, 2, 0, 1, 2, 3, 0, 1, 2, 3, 4, 0];
 
 const Card = (props) => {
     const [updateShow, setUpdateShow] = useState(false);
+    const [acquisitionShow, setAcquisitionShow] = useState(false);
     const [count, setCount] = useState(props.count);
     const [awaken, setAwaken] = useState(0);
     const [reserve, setReserve] = useState(0);
@@ -20,10 +21,24 @@ const Card = (props) => {
 
     return (
         <div className="card-wrap mt-2 fw-bold">
-            <p className={"m-0 p-0 data-grade-" + props.grade}>{props.name}</p>
+            <p className={"m-0 p-0 text-center data-grade-" + props.grade}
+               style={{cursor: "pointer"}}
+               onClick={() => {setAcquisitionShow(!acquisitionShow)}}>{props.name}</p>
+            {
+                acquisitionShow === false ? null : 
+                <div className="card-acquisition bg-dark text-white p-2 pb-0">
+                    <p className={"pt-2 data-grade-" + props.grade}>{props.name}</p>
+                    <hr className="m-0 p-0"/>
+                    <p className="pt-2">획득처</p>
+                    {
+                        props.acquisition.map((v, i) => {
+                            return <p key={i} style={{color: "#97FFFD"}}>{v}</p>
+                        })
+                    }
+                </div>
+            }
             <span className="card-count p-1 bg-secondary bg-gradient" style={{color: "white"}}>+{reserve}</span>
             <img className={"card-img border-grade-" + props.grade} 
-                 onClick={() => {setUpdateShow(true)}}
                  style={updateShow === true ? {opacity: "0.5"} : {opacity: "1"}}
                  src={props.imgSrc} 
                  alt="character"
@@ -52,7 +67,7 @@ const Card = (props) => {
                      onMouseEnter={() => {setUpdateShow(true)}}
                      onMouseLeave={() => {setUpdateShow(false)}}>
                     <div>
-                        <span className="me-2">각성 단계</span>
+                        <span className="me-2 align-middle">각성 단계</span>
                         <button className="btn btn-danger"
                                 onClick={() => {setCount(count - awaken)}}>━</button>
                         <button className="btn btn-primary"
@@ -63,7 +78,7 @@ const Card = (props) => {
                                 }}>┼</button>
                     </div>
                     <div className="mt-2">
-                        <span className="me-2">보유 수량</span>
+                        <span className="me-2 align-middle">보유 수량</span>
                         <button className="btn btn-danger"
                                 onClick={() => {if (count > 0) setCount(count - 1)}}>━</button>
                         <button className="btn btn-primary"
