@@ -1,5 +1,4 @@
 import { React, useEffect, useState } from "react";
-import { Container, Button, Row, Col } from "react-bootstrap";
 
 import "./Card.css";
 import imgAwakenActive from "../assets/awaken_active.png";
@@ -20,73 +19,59 @@ const Card = (props) => {
     }, [count]);
 
     return (
-        <Container className="m-1 p-0 fw-bold text-center card-wrap">
+        <div className="card-wrap mt-2 fw-bold">
             <p className={"m-0 p-0 data-grade-" + props.grade}>{props.name}</p>
-            <p className="m-0 p-1 bg-secondary bg-gradient card-count" style={{color: "white"}}>+{reserve}</p>
-            <img className={"border-grade-" + props.grade} 
+            <span className="card-count p-1 bg-secondary bg-gradient" style={{color: "white"}}>+{reserve}</span>
+            <img className={"card-img border-grade-" + props.grade} 
                  onClick={() => {setUpdateShow(true)}}
                  style={updateShow === true ? {opacity: "0.5"} : {opacity: "1"}}
                  src={props.imgSrc} 
                  alt="character"
-                 height="280px" 
+                 height="240px"
                  onMouseEnter={() => {setUpdateShow(true)}}
                  onMouseLeave={() => {setUpdateShow(false)}}/>
-            <Container className="card-awaken">
+            <div className="card-awaken">
             {
                 [...Array(awaken)].map((v, i) => {
                     return (
-                        <img key={i} src={imgAwakenActive} alt="awakenActive" className="p-1"/>
+                        <img key={i} src={imgAwakenActive} alt="awakenActive"/>
                     )
                 })
             }
             {
                 [...Array(5 - awaken)].map((v, i) => {
                     return (
-                        <img key={i} src={imgAwakenInactive} alt="awakenInactive" className="p-1"/>
+                        <img key={i} src={imgAwakenInactive} alt="awakenInactive"/>
                     )
                 })
             }
-            </Container>
+            </div>
             {
                 updateShow === false ? null : 
-                <Container className="card-update" 
-                           onMouseEnter={() => {setUpdateShow(true)}} 
-                           onMouseLeave={() => {setUpdateShow(false)}}>
-                    <Row className="m-0 p-0 align-items-center">
-                        <Col className="m-0 p-0"><span>각성 단계</span></Col>
-                        <Col>
-                            <Button variant="danger" className="m-0"
-                                    onClick={() => {setCount(count - awaken)}}>―</Button>
-                            <Button className="m-0"
-                                    onClick={() => {
-                                            let next = count + awaken + 1;
-                                            if (next > 15) {
-                                                next = 15;
-                                            }
-                                            setCount(next);
-                                        }}>┼</Button>
-                        </Col>
-                    </Row>
-                    <Row className="m-0 mt-1 p-0 align-items-center">
-                        <Col className="m-0 p-0"><span>보유 수량</span></Col>
-                        <Col>
-                            <Button variant="danger" className="m-0"
-                                    onClick={() => {
-                                        if (count > 0) {
-                                            setCount(count - 1)
-                                        }
-                                    }}>―</Button>
-                            <Button className="m-0"
-                                    onClick={() => {
-                                        if (count < 15) {
-                                            setCount(count + 1)
-                                        }
-                                    }}>┼</Button>
-                        </Col>
-                    </Row>
-                </Container>
+                <div className="card-update"
+                     onMouseEnter={() => {setUpdateShow(true)}}
+                     onMouseLeave={() => {setUpdateShow(false)}}>
+                    <div>
+                        <span className="me-2">각성 단계</span>
+                        <button className="btn btn-danger"
+                                onClick={() => {setCount(count - awaken)}}>━</button>
+                        <button className="btn btn-primary"
+                                onClick={() => {
+                                    let next = count + awaken + 1;
+                                    if (next > 15) next = 15;
+                                    setCount(next);
+                                }}>┼</button>
+                    </div>
+                    <div className="mt-2">
+                        <span className="me-2">보유 수량</span>
+                        <button className="btn btn-danger"
+                                onClick={() => {if (count > 0) setCount(count - 1)}}>━</button>
+                        <button className="btn btn-primary"
+                                onClick={() => {if (count < 15) setCount(count + 1)}}>┼</button>
+                    </div>
+                </div>
             }
-        </Container>
+        </div>
     )
 };
 

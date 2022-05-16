@@ -3,7 +3,6 @@ import { Route, BrowserRouter } from "react-router-dom";
 
 import Navigation from "./components/Navigation.js";
 
-import { Container, Row, Col } from "react-bootstrap";
 import Card from "./components/Card.js";
 
 function App() {
@@ -12,36 +11,32 @@ function App() {
   return (
     <BrowserRouter basename={process.env.REACT_APP_URL_BASE}>
       <Navigation />
-      <Container>
-        <Row>
-          <Col><Card name="광기를 잃은 쿠크세이튼" imgSrc={imgSrc} count={Number(0)} grade="0"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(1)} grade="1"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(2)} grade="2"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(3)} grade="3"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(4)} grade="4"/></Col>
-        </Row>
-        <Row>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(5)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(6)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(7)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(8)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(9)} grade="4"/></Col>
-        </Row>
-        <Row>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(10)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(11)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(12)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(13)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(14)} grade="4"/></Col>
-        </Row>
-        <Row>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(15)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(0)} grade="4"/></Col>
-          <Col><Card name="TEST" imgSrc={imgSrc} count={Number(1)} grade="4"/></Col>
-          <Col></Col>
-          <Col></Col>
-        </Row>
-      </Container>
+      <div className="container">
+        <div className="row">
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(0)} imgSrc={imgSrc} count={Number(0)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(1)} imgSrc={imgSrc} count={Number(1)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(2)} imgSrc={imgSrc} count={Number(2)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(3)} imgSrc={imgSrc} count={Number(3)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(4)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(5)} /></div>
+        </div>
+        <div className="row">
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(6)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(7)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(8)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(9)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(10)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(11)} /></div>
+        </div>
+        <div className="row">
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(12)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(13)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(14)} /></div>
+          <div className="col"><Card name="광기를 잃은 쿠크세이튼" grade={Number(4)} imgSrc={imgSrc} count={Number(15)} /></div>
+          <div className="col"></div>
+          <div className="col"></div>
+        </div>
+      </div>
     </BrowserRouter>
   );
 }

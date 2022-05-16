@@ -1,23 +1,24 @@
 .card-wrap {
     position: relative;
 }
-.card-wrap {
-    position: relative;
-}
 .card-count {
     position: absolute;
-    top: 9%;
-    right: 11%;
+    z-index: 1;
+    top: 27px;
+    left: 144px;
+}
+.card-img {
+    position: relative;
 }
 .card-awaken {
     position: absolute;
-    top: 80%;
-    left: 1%;
+    top: 218px;
+    left: 30px;
 }
 .card-update {
     position: absolute;
-    top: 40%;
-    left: 1%;
+    top: 100px;
+    left: 8px;
 }
 
 .data-grade-0 {

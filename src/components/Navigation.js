@@ -1,17 +1,25 @@
 import React from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const Navigation = () => {
     return (
-        <Navbar className="sticky-top ps-5" bg="dark" variant="dark">
-            <Navbar.Brand as={Link} to="/">Loa Cardbook</Navbar.Brand>
-            <Nav>
-                <Nav.Link as={Link} to="/">성장</Nav.Link>
-                <Nav.Link as={Link} to="/">세트</Nav.Link>
-                <Nav.Link as={Link} to="/">도감</Nav.Link>
-            </Nav>
-        </Navbar>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-2">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="/">Loa Cardbook</a>
+                <div className="collapse navbar-collapse">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <a className="nav-link" href="/">성장</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/">세트</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/">도감</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     )
 }
 
