@@ -11,9 +11,8 @@ const Tab = (props) => {
     return (
         props.selected.map((v, i) => {
             return (
-                <button 
-                    key={`tabBtn_${i}`}
-                    className="btn btn-lg" 
+                <button key={i}
+                    className="btn btn-lg me-1" 
                     style={
                         v === true ? {background: gradeColor[i], border: "1px solid " + gradeColor[i], color: "white"} : 
                                      {background: "white", border: "1px solid " + gradeColor[i], color: gradeColor[i]}}
@@ -38,17 +37,16 @@ const Content = (props) => {
                 {
                     [...Array(rows)].map((v, i) => {
                         return (
-                            <div className="row">
+                            <div key={i} className="row">
                                 {
                                     [...Array(6)].map((u, j) => {
                                         let index = (i * 6) + j;
                                         if (index >= props.cards.length) {
-                                            return <div className="col"></div>;
+                                            return <div key={j} className="col"></div>;
                                         } else {
                                             return (
-                                                <div className="col">
-                                                    <Card key={`card_${props.grade}_${index}`} 
-                                                          card={props.cards[index]} />
+                                                <div key={j} className="col">
+                                                    <Card card={props.cards[index]} />
                                                 </div>
                                             )
                                         }
@@ -112,7 +110,7 @@ const GrowCard = () => {
     return (
         <div className="container">
             <div className="m-3 text-center">
-                <button className="btn btn-primary btn-lg" 
+                <button className="btn btn-primary btn-lg me-1" 
                         onClick={() => {
                             let select = selected;
                             select.map((v, i) => {select[i] = true});
@@ -123,7 +121,7 @@ const GrowCard = () => {
             {
                 selected.map((v, i) => {
                     if (v) {
-                        return <Content key={`content_${i}`} grade={i} cards={cardListMap[i]}/>
+                        return <Content key={i} grade={i} cards={cardListMap[i]}/>
                     } else {
                         return null;
                     }

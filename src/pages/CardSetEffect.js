@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { React, useEffect, useState } from "react";
 import Card from "../components/Card.js";
 import cardData from "../assets/card.json";
@@ -124,7 +126,7 @@ const Description = (props) => {
     )
 };
 
-const SetEffect = () => {
+const CardSetEffect = () => {
     const [descShow, setDescShow] = useState([]);
 
     useEffect(() => {
@@ -156,4 +158,4 @@ const SetEffect = () => {
     )
 };
 
-export default SetEffect;
+export default CardSetEffect;
