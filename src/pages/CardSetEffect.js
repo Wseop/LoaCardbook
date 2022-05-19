@@ -2,7 +2,7 @@
 
 import { React, useEffect, useState } from "react";
 import Card from "../components/Card.js";
-import cardData from "../assets/card.json";
+import { useSelector } from "react-redux";
 import cardSetData from "../assets/card-set.json";
 
 const Title = (props) => {
@@ -21,12 +21,18 @@ const Title = (props) => {
     )
 };
 const CardList = (props) => {
-    let cards = [];
+    //let cards = [];
+    const [cards, setCards] = useState([]);
 
-    props.cardList.map((v, i) => {
-        cards.push(cardData.find(element => element.name === v));
-    });
-
+    useEffect(() => {
+        let newCards = [];
+        props.cardList.map((v, i) => {
+    
+            newCards.push(props.cardData.find(element => element.name === v));
+        });
+        setCards([...newCards]);
+    }, [props.cardData]);
+    
     return (
         <div className="container">
             <div className="row">
@@ -75,19 +81,19 @@ const Description = (props) => {
     // 보유량이 높은 카드 maxCount개 추출
     // 각성 단계 내림차순으로 정렬
     props.cardList.sort((a, b) => {
-        const aCount = cardData.find(element => element.name === a).count;
-        const bCount = cardData.find(element => element.name === b).count;
+        const aCount = props.cardData.find(element => element.name === a).count;
+        const bCount = props.cardData.find(element => element.name === b).count;
         return Number(bCount) - Number(aCount);
     });
     // 1개 이상 보유한 카드 최대 maxCount개 추출
     for (let i = 0; i < maxCount; i++) {
-        if (cardData.find(element => element.name === props.cardList[i]).count > 0) {
+        if (props.cardData.find(element => element.name === props.cardList[i]).count > 0) {
             highCards.push(props.cardList[i]);
         }
     }
     // 각성 단계 계산
     highCards.map((v, i) => {
-        awakenCount += countToAwaken[Number(cardData.find(element => element.name === v).count)];
+        awakenCount += countToAwaken[Number(props.cardData.find(element => element.name === v).count)];
     });
 
     return (
@@ -128,6 +134,7 @@ const Description = (props) => {
 
 const CardSetEffect = () => {
     const [descShow, setDescShow] = useState([]);
+    let cardData = useSelector(state => state.cards);
 
     useEffect(() => {
         let desc = [];
@@ -145,10 +152,10 @@ const CardSetEffect = () => {
                     return (
                         <div key={i} className="mb-5">
                             <Title index={i} name={v.name} descShow={descShow} setDescShow={setDescShow} />
-                            <CardList cardList={v.cardList} />
+                            <CardList cardList={v.cardList} cardData={cardData} />
                             {
                                 descShow[i] === false ? null :
-                                <Description name={v.name} effects={v.effects} awakenEffects={v.awakenEffects} cardList={v.cardList} />
+                                <Description name={v.name} effects={v.effects} awakenEffects={v.awakenEffects} cardList={v.cardList} cardData={cardData} />
                             }
                         </div>
                     )

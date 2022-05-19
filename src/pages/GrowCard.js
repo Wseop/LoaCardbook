@@ -2,7 +2,7 @@
 
 import { React, useEffect, useState } from "react";
 import Card from "../components/Card.js";
-import cardData from "../assets/card.json";
+import { useSelector } from "react-redux";
 
 const numberToGrade = ["전설", "영웅", "희귀", "고급", "일반"];
 const gradeColor = ["#F39303", "#BF00FE", "#0091cc", "#6FC300", "grey"];
@@ -71,6 +71,7 @@ const GrowCard = () => {
     const [commonCards, setCommonCards] = useState([]);
     const [selected, setSelected] = useState([true, true, true, true, true]);
     const cardListMap = [legendCards, epicCards, rareCards, uncommonCards, commonCards];
+    let cardData = useSelector(state => state.cards);
 
     useEffect(() => {
         let common = [];
@@ -100,12 +101,12 @@ const GrowCard = () => {
                     break;
             }
         });
-        setCommonCards([...commonCards, ...common]);
-        setUncommonCards([...uncommonCards, ...uncommon]);
-        setRareCards([...rareCards, ...rare]);
-        setEpicCards([...epicCards, ...epic]);
-        setLegendCards([...legendCards, ...legend]);
-    }, []);
+        setCommonCards([...common]);
+        setUncommonCards([...uncommon]);
+        setRareCards([...rare]);
+        setEpicCards([...epic]);
+        setLegendCards([...legend]);
+    }, [cardData]);
 
     return (
         <div className="container">

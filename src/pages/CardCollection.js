@@ -2,7 +2,7 @@
 
 import { React, useEffect, useState } from "react";
 import Card from "../components/Card.js";
-import cardData from "../assets/card.json";
+import { useSelector } from "react-redux";
 import collectionData from "../assets/card-collect.json";
 
 const numberToType = ["악마", "야수", "정령", "곤충", "기계", "식물", "물질", "인간", "불사"];
@@ -49,18 +49,17 @@ const Title = (props) => {
 
 const CardList = (props) => {
     const cardList = props.cardList;
-    //let cards = [];
     const [cards, setCards] = useState([]);
 
     useEffect(() => {
         let newCards = [];
 
         cardList.map((v, i) => {
-            newCards.push(cardData.find(element => element.name === v));
+            newCards.push(props.cardData.find(element => element.name === v));
         });
 
         setCards([...newCards]);
-    }, []);
+    }, [props.cardData]);
 
     return (
         <div className="container">
@@ -112,7 +111,7 @@ const Effect = (props) => {
     let collectCount = 0;
     let awakenCount = 0;
     cardList.map((v, i) => {
-        const count = cardData.find(element => element.name === v).count;
+        const count = props.cardData.find(element => element.name === v).count;
         if (count > 0) {
             collectCount++;
             awakenCount += countToAwaken[count];
@@ -144,10 +143,10 @@ const Effect = (props) => {
                         awakenEffect.effects.map((effect, i) => {
                             return (
                                 <div key={i} className="text-center fw-bold">
-                                    <p style={awakenCount >= Number(effect.count) ? {color: "#63E925"} : 
-                                                                                            {color: "#A9A9A9"}}>{`각성단계 합계 ${effect.count}`}</p>
-                                    <p style={awakenCount >= Number(effect.count) ? {color: "white"} : 
-                                                                                            {color: "#A9A9A9"}}>{`${awakenEffect.category.slice(0, 2)} 계열 피해량 증가 +${effect.value}%`}</p>
+                                    <p style={collectCount >= cardList.length && awakenCount >= Number(effect.count) ? {color: "#63E925"} : 
+                                                                                                                       {color: "#A9A9A9"}}>{`각성단계 합계 ${effect.count}`}</p>
+                                    <p style={collectCount >= cardList.length && awakenCount >= Number(effect.count) ? {color: "white"} : 
+                                                                                                                       {color: "#A9A9A9"}}>{`${awakenEffect.category.slice(0, 2)} 계열 피해량 증가 +${effect.value}%`}</p>
                                 </div>
                             )
                         })
@@ -161,6 +160,7 @@ const Effect = (props) => {
 const Content = (props) => {
     const collections = props.collections;
     const [effectShow, setEffectShow] = useState([]);
+    let cardData = useSelector(state => state.cards);
 
     useEffect(() => {
         let effectShow = [];
@@ -176,8 +176,8 @@ const Content = (props) => {
             return (
                 <div key={i} className="mb-5">
                     <Title name={v.name} effectShow={effectShow} setEffectShow={setEffectShow} index={i} />
-                    <CardList cardList={v.cardList} />
-                    <Effect effects={v.effects} awakenEffect={v.awakenEffect} cardList={v.cardList} effectShow={effectShow} index={i} />
+                    <CardList cardList={v.cardList} cardData={cardData} />
+                    <Effect effects={v.effects} awakenEffect={v.awakenEffect} cardList={v.cardList} effectShow={effectShow} index={i} cardData={cardData} />
                 </div>
             )
         })
