@@ -73,6 +73,8 @@ const GrowCard = () => {
     const cardListMap = [legendCards, epicCards, rareCards, uncommonCards, commonCards];
     let cardData = useSelector(state => state.cards);
 
+    if (cardData == null) return null;
+
     useEffect(() => {
         let common = [];
         let uncommon = [];

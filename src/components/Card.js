@@ -3,7 +3,7 @@
 import { React, useEffect, useState } from "react";
 import "./Card.css";
 import { useDispatch } from "react-redux";
-import { changeCount } from "../reducers/cards.js";
+import { changeCount } from "../reducers/store.js";
 import imgAwakenActive from "../assets/awaken_active.png";
 import imgAwakenInactive from "../assets/awaken_inactive.png";
 
@@ -22,6 +22,10 @@ const Card = (props) => {
         setAwaken(countToAwaken[props.card.count]);
         setReserve(countToReserve[props.card.count]);
     }, [props.card.count]);
+
+    if (awaken == null) {
+        dispatch(changeCount({name: props.card.name, count: 0}));
+    }
 
     if (props.card == null) return null;
     return (
