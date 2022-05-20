@@ -80,15 +80,16 @@ const Description = (props) => {
 
     // 보유량이 높은 카드 maxCount개 추출
     // 각성 단계 내림차순으로 정렬
-    props.cardList.sort((a, b) => {
+    let sortedCard = [...props.cardList];
+        sortedCard.sort((a, b) => {
         const aCount = props.cardData.find(element => element.name === a).count;
         const bCount = props.cardData.find(element => element.name === b).count;
         return Number(bCount) - Number(aCount);
     });
     // 1개 이상 보유한 카드 최대 maxCount개 추출
     for (let i = 0; i < maxCount; i++) {
-        if (props.cardData.find(element => element.name === props.cardList[i]).count > 0) {
-            highCards.push(props.cardList[i]);
+        if (props.cardData.find(element => element.name === sortedCard[i]).count > 0) {
+            highCards.push(sortedCard[i]);
         }
     }
     // 각성 단계 계산
@@ -118,10 +119,10 @@ const Description = (props) => {
                         props.awakenEffects.map((effect, i) => {
                             return (
                                 <div key={i} className="text-center fw-bold">
-                                    <p style={awakenCount >= Number(effect.count) ? {color: "#63E925"} : 
-                                                                                    {color: "#A9A9A9"}}>{`${props.name} ${maxCount} 세트 (${effect.count}각성합계)`}</p>
-                                    <p style={awakenCount >= Number(effect.count) ? {color: "white"} : 
-                                                                                    {color: "#A9A9A9"}}>{effect.description}</p>
+                                    <p style={highCards.length >= maxCount && awakenCount >= Number(effect.count) ? {color: "#63E925"} : 
+                                                                                                                    {color: "#A9A9A9"}}>{`${props.name} ${maxCount} 세트 (${effect.count}각성합계)`}</p>
+                                    <p style={highCards.length >= maxCount && awakenCount >= Number(effect.count) ? {color: "white"} : 
+                                                                                                                    {color: "#A9A9A9"}}>{effect.description}</p>
                                 </div>
                             )
                         })

@@ -19,8 +19,8 @@ const Tab = (props) => {
                                          {background: "white", border: "1px solid " + numberToColor[i], color: numberToColor[i]}
                         }
                         onClick={() => {
-                            let select = props.selected;
-                            select[i] = !select[i];
+                            let select = [false, false, false, false, false, false, false, false, false];
+                            select[i] = true;
                             props.setSelected([...select]);
                         }}>{numberToType[i]}</button>
             )
@@ -185,7 +185,7 @@ const Content = (props) => {
 }
 
 const CardCollection = () => {
-    const [selected, setSelected] = useState([true, true, true, true, true, true, true, true, true]);
+    const [selected, setSelected] = useState([true, false, false, false, false, false, false, false, false]);
     const [devil, setDevil] = useState([]);
     const [beast, setBeast] = useState([]);
     const [spirit, setSpirit] = useState([]);
