@@ -5,11 +5,11 @@ const Navigation = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-2">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">Loa Cardbook</Link>
+                <Link className="navbar-brand" to="/">로아 카드 계산기</Link>
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">성장</Link>
+                            <Link className="nav-link" to="/grow">성장</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/set">세트</Link>
