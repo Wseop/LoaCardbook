@@ -2,116 +2,116 @@
   {
     "name": "아만",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_00_0.png",
+    "imgSrc": "Card_legend_00_0.png",
     "acquisition": [
       "[던전] 어비스 던전"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "실리안",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_00_1.png",
+    "imgSrc": "Card_legend_00_1.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[모험의 서] 루테란 동부"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "발탄",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_00_2.png",
+    "imgSrc": "Card_legend_00_2.png",
     "acquisition": [
       "[업적] 격동하는 대지에 침묵을",
       "[군단장 레이드] 마수군단장 발탄"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "국왕 실리안",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_00_3.png",
+    "imgSrc": "Card_legend_00_3.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[호감도] 실리안"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "샨디",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_00_4.png",
+    "imgSrc": "Card_legend_00_4.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[업적 달성] "
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "진저웨일",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_00_5.png",
+    "imgSrc": "Card_legend_00_5.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[수집품] 이그네아의 징표"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "데런 아만",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_00_6.png",
+    "imgSrc": "Card_legend_00_6.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[수집품] 이그네아의 징표"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "쿠크세이튼",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_00_7.png",
+    "imgSrc": "Card_legend_00_7.png",
     "acquisition": [
       "[군단장 레이드] 광기군단장 쿠크세이튼",
       "[업적] 그 광기, 내가 치료해주지"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "웨이",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_01_0.png",
+    "imgSrc": "Card_legend_01_0.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 애니츠",
       "[업적 달성] 보스 헌터 : 고급"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "비아키스",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_01_1.png",
+    "imgSrc": "Card_legend_01_1.png",
     "acquisition": [
       "[군단장 레이드] 욕망군단장 비아키스",
       "[업적] 욕망군단장을 정복한 자"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "일리아칸",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_01_2.png",
+    "imgSrc": "Card_legend_01_2.png",
     "acquisition": [
       "[업적 달성] 흉가 체험",
       "[대항해] 악몽을 떠도는 유령선",
@@ -119,3348 +119,3348 @@
       "[대항해] 폭풍을 부르는 유령선",
       "[대항해] 죄를 짊어진 유령선"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "카마인",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_01_3.png",
+    "imgSrc": "Card_legend_01_3.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[업적 달성] 끝 없는 혼돈의 시작"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "카멘",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_01_4.png",
+    "imgSrc": "Card_legend_01_4.png",
     "acquisition": [],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아브렐슈드",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_01_5.png",
+    "imgSrc": "Card_legend_01_5.png",
     "acquisition": [
       "[군단장 레이드] 몽환군단장 아브렐슈드",
       "[업적] 현실과 꿈의 경계"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "베아트리스",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_01_6.png",
+    "imgSrc": "Card_legend_01_6.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[호감도] 트리시온 - 베아트리스"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아제나&이난나",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_02_0.png",
+    "imgSrc": "Card_legend_02_0.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[호감도] 로아룬 - 아제나"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "바훈투르",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_02_1.png",
+    "imgSrc": "Card_legend_02_1.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[업적 달성] 쇼는 계속되어야 한다!"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "가디언 루",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_02_2.png",
+    "imgSrc": "Card_legend_02_2.png",
     "acquisition": [
       "[비밀지도] ",
       "[업적 달성] 뭐 이런 지도가 다 있어?",
       "[수집품] 위대한 미술품"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에스더 루테란",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_02_3.png",
+    "imgSrc": "Card_legend_02_3.png",
     "acquisition": [
       "[비밀지도] ",
       "[업적 달성] 비밀의 공간"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에스더 시엔",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_02_4.png",
+    "imgSrc": "Card_legend_02_4.png",
     "acquisition": [
       "[비밀지도] ",
       "[업적 달성] 우리만의 비밀"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에스더 갈라투르",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_02_5.png",
+    "imgSrc": "Card_legend_02_5.png",
     "acquisition": [
       "[비밀지도] ",
       "[업적 달성] 전설의 비폭력 주의자"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "니나브",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_02_6.png",
+    "imgSrc": "Card_legend_02_6.png",
     "acquisition": [
       "[던전] 어비스 던전",
       "[호감도] 속삭이는 작은 섬 - 니나브"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "카단",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_02_7.png",
+    "imgSrc": "Card_legend_02_7.png",
     "acquisition": [
       "[퀘스트] 상처 입은 새의 눈물",
       "[어비스 던전] 카양겔"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "광기를 잃은 쿠크세이튼",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Epic/Card_Epic_09_2.png",
+    "imgSrc": "Card_Epic_09_2.png",
     "acquisition": [
       "[업적 달성] 모험의 서 : 파푸니카"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에버그레이스",
     "grade": 4,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_legend/Card_legend_03_4.png",
+    "imgSrc": "Card_legend_03_4.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 엘가시아",
       "[어비스 던전] 카양겔"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "타나토스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_00_0.png",
+    "imgSrc": "Card_epic_00_0.png",
     "acquisition": [
       "[던전] 모라이 유적",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "천둥날개",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_00_1.png",
+    "imgSrc": "Card_epic_00_1.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 루테란 동부",
       "[업적 달성] 조금만 늦었다면...",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "슈헤리트",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_00_2.png",
+    "imgSrc": "Card_epic_00_2.png",
     "acquisition": [
       "[모험의 서] 루테란 서부",
       "[탐색] 격전의 평야",
       "[카드팩] 용감한 기사의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "알레그로",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_00_3.png",
+    "imgSrc": "Card_epic_00_3.png",
     "acquisition": [
       "[탐색] 해무리 언덕",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "마법사 로나운",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_00_4.png",
+    "imgSrc": "Card_epic_00_4.png",
     "acquisition": [
       "[퀘스트] 퀘스트 - 전설은 다시 태어나",
       "[카드팩] 용감한 기사의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "자간",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_00_5.png",
+    "imgSrc": "Card_epic_00_5.png",
     "acquisition": [
       "[던전] 루테란 왕의 무덤",
       "[업적 달성] 라스트라 숲 정화",
       "[카드팩] 용감한 기사의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "검은이빨",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_00_6.png",
+    "imgSrc": "Card_epic_00_6.png",
     "acquisition": [
       "[호감도] 검은이빨의 주둔지 - 검은이빨",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "모카모카",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_00_7.png",
+    "imgSrc": "Card_epic_00_7.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 토토이크",
       "[수집품] 모코코 씨앗",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "반다",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_01_1.png",
+    "imgSrc": "Card_epic_01_1.png",
     "acquisition": [
       "[던전] 삶과 죽음의 경계",
       "[모험의 서] 애니츠",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "바스티안",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_01_2.png",
+    "imgSrc": "Card_epic_01_2.png",
     "acquisition": [
       "[호감도] 슈테른 - 바스티안",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "사샤",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_01_3.png",
+    "imgSrc": "Card_epic_01_3.png",
     "acquisition": [
       "[호감도] 슈테른 - 사샤",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "카인",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_01_4.png",
+    "imgSrc": "Card_epic_01_4.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 아르데타인",
       "[업적 달성] 스캔들 메이커",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "마리 파우렌츠",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_01_5.png",
+    "imgSrc": "Card_epic_01_5.png",
     "acquisition": [
       "[호감도] 고립된 영원의 섬 - 마리",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "진화의 군주 카인",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_01_6.png",
+    "imgSrc": "Card_epic_01_6.png",
     "acquisition": [
       "[던전] 에어가이츠",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "진 매드닉",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_01_7.png",
+    "imgSrc": "Card_epic_01_7.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 슈샤이어",
       "[모험의 서] 슈샤이어",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "라하르트",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_02_0.png",
+    "imgSrc": "Card_epic_02_0.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 베른 북부",
       "[모험의 서] 베른 북부",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아나벨",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_02_1.png",
+    "imgSrc": "Card_epic_02_1.png",
     "acquisition": [
       "[호감도] 라니아 마을 - 아나벨",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "지그문트",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_02_2.png",
+    "imgSrc": "Card_epic_02_2.png",
     "acquisition": [
       "[업적 달성] 베른 북부 모험기",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나크라세나",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_02_3.png",
+    "imgSrc": "Card_epic_02_3.png",
     "acquisition": [
       "[가디언 토벌] 나크라세나",
       "[업적 달성] 나크라세나",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "레바노스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_02_4.png",
+    "imgSrc": "Card_epic_02_4.png",
     "acquisition": [
       "[가디언 토벌] 레바노스",
       "[업적 달성] 레바노스",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "베르투스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_02_5.png",
+    "imgSrc": "Card_epic_02_5.png",
     "acquisition": [
       "[가디언 토벌] 베르투스",
       "[업적 달성] 베르투스",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "크로마니움",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_02_6.png",
+    "imgSrc": "Card_epic_02_6.png",
     "acquisition": [
       "[가디언 토벌] 크로마니움",
       "[업적 달성] 크로마니움",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "헬가이아",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_02_7.png",
+    "imgSrc": "Card_epic_02_7.png",
     "acquisition": [
       "[가디언 토벌] 헬가이아",
       "[업적 달성] 헬가이아",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "빙결의 레기오로스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_03_0.png",
+    "imgSrc": "Card_epic_03_0.png",
     "acquisition": [
       "[가디언 토벌] 빙결의 레기오로스",
       "[업적 달성] 빙결의 레기오로스",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "어둠의 레기오로스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_03_1.png",
+    "imgSrc": "Card_epic_03_1.png",
     "acquisition": [
       "[가디언 토벌] 어둠의 레기오로스",
       "[업적 달성] 어둠의 레기오로스",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "그노시스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_03_3.png",
+    "imgSrc": "Card_epic_03_3.png",
     "acquisition": [
       "[원정대 영지] 무역 상인",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "운다트",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_03_4.png",
+    "imgSrc": "Card_epic_03_4.png",
     "acquisition": [
       "[업적 달성] 로헨델 모험기",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "실페리온",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_03_5.png",
+    "imgSrc": "Card_epic_03_5.png",
     "acquisition": [
       "[업적 달성] 로헨델 대륙의 비밀",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "케이사르",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_03_6.png",
+    "imgSrc": "Card_epic_03_6.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 욘",
       "[호감도] 위대한 성 - 케이사르",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "벨크루제",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_03_7.png",
+    "imgSrc": "Card_epic_03_7.png",
     "acquisition": [
       "[업적 달성] 욘 모험기",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "카이슈르",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_04_0.png",
+    "imgSrc": "Card_epic_04_0.png",
     "acquisition": [
       "[원정대 영지] 무역 상인",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "칼도르",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_04_2.png",
+    "imgSrc": "Card_epic_04_2.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 페이튼",
       "[퀘스트] 페이튼 - 아베스타 입단",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "페데리코",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_04_3.png",
+    "imgSrc": "Card_epic_04_3.png",
     "acquisition": [
       "[호감도] 이름 없는 협곡 - 페데리코",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "칼트말루스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_04_4.png",
+    "imgSrc": "Card_epic_04_4.png",
     "acquisition": [
       "[업적 달성] 욘 대륙의 비밀",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "혼돈의 사이카",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_04_5.png",
+    "imgSrc": "Card_epic_04_5.png",
     "acquisition": [
       "[업적 달성] 페이튼 모험기",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아델",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_04_6.png",
+    "imgSrc": "Card_epic_04_6.png",
     "acquisition": [
       "[호감도] 베른 성 - 아델",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에아달린",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_04_7.png",
+    "imgSrc": "Card_epic_04_7.png",
     "acquisition": [
       "[호감도] 베른 성 - 에아달린",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "엔비스카",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_05_0.png",
+    "imgSrc": "Card_epic_05_0.png",
     "acquisition": [
       "[원정대 영지] 무역 상인",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "루메루스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_05_1.png",
+    "imgSrc": "Card_epic_05_1.png",
     "acquisition": [
       "[가디언 토벌] 루메루스",
       "[업적 달성] 루메루스",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "우르닐",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_05_2.png",
+    "imgSrc": "Card_epic_05_2.png",
     "acquisition": [
       "[가디언 토벌] 우르닐",
       "[업적 달성] 우르닐",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "칼벤투스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_05_4.png",
+    "imgSrc": "Card_epic_05_4.png",
     "acquisition": [
       "[가디언 토벌] 칼벤투스",
       "[업적 달성] 칼벤투스",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "용암 크로마니움",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_05_5.png",
+    "imgSrc": "Card_epic_05_5.png",
     "acquisition": [
       "[가디언 토벌] 용암 크로마니움",
       "[업적 달성] 용암 크로마니움",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "중갑 나크라세나",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_05_6.png",
+    "imgSrc": "Card_epic_05_6.png",
     "acquisition": [
       "[가디언 토벌] 중갑 나크라세나",
       "[업적 달성] 중갑 나크라세나",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "홍염의 요호",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_05_7.png",
+    "imgSrc": "Card_epic_05_7.png",
     "acquisition": [
       "[가디언 토벌] 홍염의 요호",
       "[업적 달성] 홍염의 요호",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "혹한의 헬가이아",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_06_0.png",
+    "imgSrc": "Card_epic_06_0.png",
     "acquisition": [
       "[가디언 토벌] 혹한의 헬가이아",
       "[업적 달성] 혹한의 헬가이아",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "타이탈로스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_06_1.png",
+    "imgSrc": "Card_epic_06_1.png",
     "acquisition": [
       "[가디언 토벌] 타이탈로스",
       "[업적 달성] 타이탈로스",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "흑야의 요호",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_06_2.png",
+    "imgSrc": "Card_epic_06_2.png",
     "acquisition": [
       "[가디언 토벌] 흑야의 요호",
       "[업적 달성] 흑야의 요호",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "벨가누스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_06_3.png",
+    "imgSrc": "Card_epic_06_3.png",
     "acquisition": [
       "[가디언 토벌] 벨가누스",
       "[업적 달성] 벨가누스",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "칼엘리고스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_06_4.png",
+    "imgSrc": "Card_epic_06_4.png",
     "acquisition": [
       "[가디언 토벌] 칼엘리고스",
       "[업적] 칼엘리고스"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아카테스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_06_5.png",
+    "imgSrc": "Card_epic_06_5.png",
     "acquisition": [
       "[가디언 토벌] 아카테스",
       "[업적 달성] 아카테스",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "이그렉시온",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_06_6.png",
+    "imgSrc": "Card_epic_06_6.png",
     "acquisition": [
       "[가디언 토벌] 동료를 모아 이그렉시온 토벌",
       "[업적 달성] 이그렉시온",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "미스틱",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_06_7.png",
+    "imgSrc": "Card_epic_06_7.png",
     "acquisition": [
       "[가디언 토벌] ",
       "[업적 달성] 안개로는 나를 막을 수 없다!",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "카이슈테르",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_07_0.png",
+    "imgSrc": "Card_epic_07_0.png",
     "acquisition": [
       "[가디언 토벌] 카이슈테르",
       "[업적 달성] 폭주하는 화염을 잠재우다",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "엘버하스틱",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_07_1.png",
+    "imgSrc": "Card_epic_07_1.png",
     "acquisition": [
       "[가디언 토벌] 동료를 모아 엘버하스틱 토벌",
       "[업적 달성] 엘버하스틱",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아르카디아",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_07_2.png",
+    "imgSrc": "Card_epic_07_2.png",
     "acquisition": [
       "[던전] 아르카디아의 성역",
       "[업적 달성] 낙원의 문지기",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "피요르긴",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_07_3.png",
+    "imgSrc": "Card_epic_07_3.png",
     "acquisition": [
       "[업적 달성] 맥주 안주는 나에게 맡겨라!",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "파르쿠나스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_07_4.png",
+    "imgSrc": "Card_epic_07_4.png",
     "acquisition": [
       "[업적 달성] 새로운 이야기의 시작",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나히니르",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_07_5.png",
+    "imgSrc": "Card_epic_07_5.png",
     "acquisition": [
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "신뢰의 아크 아스타",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_07_6.png",
+    "imgSrc": "Card_epic_07_6.png",
     "acquisition": [
       "[업적 달성] 운명을 계승하는자",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "창조의 아크 오르투스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_07_7.png",
+    "imgSrc": "Card_epic_07_7.png",
     "acquisition": [
       "[업적 달성] 마지막 거인이 지키고 있던",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "예지의 아크 아가톤",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_08_0.png",
+    "imgSrc": "Card_epic_08_0.png",
     "acquisition": [
       "[업적 달성] 오만의 탑이 무너지다",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "희망의 아크 엘피스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_08_1.png",
+    "imgSrc": "Card_epic_08_1.png",
     "acquisition": [
       "[업적 달성] 죄악의 저택",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "지혜의 아크 라디체",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_08_2.png",
+    "imgSrc": "Card_epic_08_2.png",
     "acquisition": [
       "[업적 달성] 실린 여왕의 친구",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "헌신의 아크 카르타",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_08_3.png",
+    "imgSrc": "Card_epic_08_3.png",
     "acquisition": [
       "[업적 달성] 카르타",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에르제베트",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_08_4.png",
+    "imgSrc": "Card_epic_08_4.png",
     "acquisition": [
       "[호감도] 지고의 섬 - 에르제베트",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "크리스틴",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_08_5.png",
+    "imgSrc": "Card_epic_08_5.png",
     "acquisition": [
       "[호감도] 지고의 섬 - 크리스틴",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "칼바서스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_08_6.png",
+    "imgSrc": "Card_epic_08_6.png",
     "acquisition": [
       "[호감도] 히프노스의 눈 - 푸른 눈의 칼바서스",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "니아",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_08_7.png",
+    "imgSrc": "Card_epic_08_7.png",
     "acquisition": [
       "[호감도] 니아 마을 - 니아",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "샤나",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_09_0.png",
+    "imgSrc": "Card_epic_09_0.png",
     "acquisition": [
       "[호감도] 니아 마을 - 샤나",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "알비온",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_09_1.png",
+    "imgSrc": "Card_epic_09_1.png",
     "acquisition": [
       "[호감도] 니아 마을 - 알비온",
       "[물물교환] 니아 마을 - 레이니",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아르고스",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_09_3.png",
+    "imgSrc": "Card_epic_09_3.png",
     "acquisition": [
       "[던전] 어비스 레이드 - 아르고스",
       "[어비스 레이드] ",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "데스칼루다",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_09_4.png",
+    "imgSrc": "Card_epic_09_4.png",
     "acquisition": [
       "[업적] 데스칼루다",
       "[가디언 토벌] 데스칼루다"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "쿤겔라니움",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_09_5.png",
+    "imgSrc": "Card_epic_09_5.png",
     "acquisition": [
       "[가디언 토벌] 쿤겔라니움",
       "[업적] 쿤겔라니움"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하누마탄",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_09_6.png",
+    "imgSrc": "Card_epic_09_6.png",
     "acquisition": [
       "[가디언 토벌] 하누마탄",
       "[업적] 하누마탄"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "뮨 히다카",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_10_0.png",
+    "imgSrc": "Card_epic_10_0.png",
     "acquisition": [
       "[업적 달성] 뮨의 의지",
       "[모험의 서] 로웬",
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "오스피어",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_10_1.png",
+    "imgSrc": "Card_epic_10_1.png",
     "acquisition": [
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "다르시",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_10_2.png",
+    "imgSrc": "Card_epic_10_2.png",
     "acquisition": [
       "[업적 달성] 모험의 서 : 로웬",
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "라우리엘",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Epic/Card_Epic_11_1.png",
+    "imgSrc": "Card_Epic_11_1.png",
     "acquisition": [],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
-    "name": "카양겔",
+    "name": "영원의 아크 카양겔",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Epic/Card_Epic_11_2.png",
+    "imgSrc": "Card_Epic_11_2.png",
     "acquisition": [],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "사이카",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_04_1.png",
+    "imgSrc": "Card_epic_04_1.png",
     "acquisition": [
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에페르니아",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_03_2.png",
+    "imgSrc": "Card_epic_03_2.png",
     "acquisition": [
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하백",
     "grade": 3,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_epic/Card_epic_01_0.png",
+    "imgSrc": "Card_epic_01_0.png",
     "acquisition": [
       "[카드팩] 신비한 풍류의 카드 팩",
       "[카드팩] 노래하는 혹한 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "바루투",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_00_0.png",
+    "imgSrc": "Card_rare_00_0.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 아르테미스",
       "[퀘스트] 아르테미스 - 예언의 석판",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "레온하트 네리아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_00_1.png",
+    "imgSrc": "Card_rare_00_1.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 아르테미스",
       "[모험의 서] 아르테미스",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "루드릭",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_00_2.png",
+    "imgSrc": "Card_rare_00_2.png",
     "acquisition": [
       "[필드 보스] 루드릭",
       "[업적 달성] 아르테미스 대륙의 비밀"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "도굴단장 우고",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_00_3.png",
+    "imgSrc": "Card_rare_00_3.png",
     "acquisition": [
       "[퀘스트] 레온하트 - 예언의 석판",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "불칸",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_00_4.png",
+    "imgSrc": "Card_rare_00_4.png",
     "acquisition": [
       "[필드 보스] 불칸",
       "[업적 달성] 아르데타인 대륙의 비밀",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "역병 인도자",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_00_5.png",
+    "imgSrc": "Card_rare_00_5.png",
     "acquisition": [
       "[업적 달성] 불사조 군단",
       "[카드팩] 삭막한 초원이 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하르잘",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_00_6.png",
+    "imgSrc": "Card_rare_00_6.png",
     "acquisition": [
       "[업적 달성] 광기의 군단 공략",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "소금거인",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_00_7.png",
+    "imgSrc": "Card_rare_00_7.png",
     "acquisition": [
       "[모험의 서] 유디아",
       "[필드 보스] 소금거인",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "천둥",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_01_0.png",
+    "imgSrc": "Card_rare_01_0.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 유디아",
       "[호감도] 살란드 구릉지 - 소금사막의 천둥",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "칼라도세",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_01_1.png",
+    "imgSrc": "Card_rare_01_1.png",
     "acquisition": [
       "[업적 달성] 몽환의 군단 공략",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "미한",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_01_2.png",
+    "imgSrc": "Card_rare_01_2.png",
     "acquisition": [
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "릭투스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_01_3.png",
+    "imgSrc": "Card_rare_01_3.png",
     "acquisition": [
       "[업적 달성] 어둠의 군단 공략",
       "[카드팩] 용감한 기사의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하셀링크",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_01_4.png",
+    "imgSrc": "Card_rare_01_4.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 루테란 서부",
       "[모험의 서] 루테란 동부",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "로블롬",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_01_5.png",
+    "imgSrc": "Card_rare_01_5.png",
     "acquisition": [
       "[필드 보스] 로블롬",
       "[업적 달성] 루테란 서부 대륙의 비밀",
       "[카드팩] 용감한 기사의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "알리페르",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_01_6.png",
+    "imgSrc": "Card_rare_01_6.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 로헨델",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "루테란 성 네리아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_01_7.png",
+    "imgSrc": "Card_rare_01_7.png",
     "acquisition": [
       "[호감도] 루테란 성 - 네리아",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "윌리윌리",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_02_0.png",
+    "imgSrc": "Card_rare_02_0.png",
     "acquisition": [
       "[필드 보스] 윌리윌리",
       "[업적 달성] 루테란 동부 대륙의 비밀",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "세리아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_02_1.png",
+    "imgSrc": "Card_rare_02_1.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 루테란 동부",
       "[모험의 서] 루테란 서부",
       "[카드팩] 용감한 기사의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "사교도 대제사장",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_02_2.png",
+    "imgSrc": "Card_rare_02_2.png",
     "acquisition": [
       "[던전] 교회당 지하",
       "[퀘스트] 루테란 동부 - 광기의 소환 의식",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "자히아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_02_3.png",
+    "imgSrc": "Card_rare_02_3.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 세리아의 선물",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "리게아스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_02_4.png",
+    "imgSrc": "Card_rare_02_4.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 리게아스의 조언",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하울로크",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_02_5.png",
+    "imgSrc": "Card_rare_02_5.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 전열을 가다듬고",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "칼스 모론토",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_02_6.png",
+    "imgSrc": "Card_rare_02_6.png",
     "acquisition": [
       "[호감도] 갈기파도 항구 - 칼스",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "히바이크",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_02_7.png",
+    "imgSrc": "Card_rare_02_7.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 크라잉스톰 소탕",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "녹스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_03_0.png",
+    "imgSrc": "Card_rare_03_0.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 루테란 동부",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "세티노",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_03_1.png",
+    "imgSrc": "Card_rare_03_1.png",
     "acquisition": [
       "[퀘스트] 모코코 마을 - 정말 별 것 아니지만...",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "토토마",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_03_2.png",
+    "imgSrc": "Card_rare_03_2.png",
     "acquisition": [
       "[수집품] 모코코 씨앗",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하이비 집행관",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_03_3.png",
+    "imgSrc": "Card_rare_03_3.png",
     "acquisition": [
       "[퀘스트] 토토이크 - 재회, 그리고 다시",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "수호자 에오로",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_03_4.png",
+    "imgSrc": "Card_rare_03_4.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 토토이크",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "붉은 남작 에디",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_03_5.png",
+    "imgSrc": "Card_rare_03_5.png",
     "acquisition": [
       "[던전] 해적 소굴",
       "[퀘스트] 모코코 마을 - 재회, 그리고 다시",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "수호자 티르",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_03_6.png",
+    "imgSrc": "Card_rare_03_6.png",
     "acquisition": [
       "[던전] 토토이크 몸 속",
       "[업적 달성] 토토이크 모험기",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "거신 카스피엘",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_03_7.png",
+    "imgSrc": "Card_rare_03_7.png",
     "acquisition": [
       "[필드 보스] 카스피엘",
       "[업적 달성] 토토이크 대륙의 비밀",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아크의 수호자 오셀",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_04_0.png",
+    "imgSrc": "Card_rare_04_0.png",
     "acquisition": [
       "[모험의 서] 토토이크",
       "[카드팩] 새벽 잎사귀의 카드 팩",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "파한",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_04_1.png",
+    "imgSrc": "Card_rare_04_1.png",
     "acquisition": [
       "[모험의 서] 애니츠",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "만포",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_04_2.png",
+    "imgSrc": "Card_rare_04_2.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "미령",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_04_3.png",
+    "imgSrc": "Card_rare_04_3.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "원포",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_04_4.png",
+    "imgSrc": "Card_rare_04_4.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "길달",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_04_5.png",
+    "imgSrc": "Card_rare_04_5.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "절망의 레키엘",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_04_6.png",
+    "imgSrc": "Card_rare_04_6.png",
     "acquisition": [
       "[던전] 연의 결계",
       "[업적 달성] 애니츠 여행기",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "역병군단 바르토",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_04_7.png",
+    "imgSrc": "Card_rare_04_7.png",
     "acquisition": [
       "[던전] 적의 결계",
       "[업적 달성] 질병의 군단 공략",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "도철",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_05_0.png",
+    "imgSrc": "Card_rare_05_0.png",
     "acquisition": [
       "[업적 달성] 애니츠 모험기",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "혼재의 추오",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_05_1.png",
+    "imgSrc": "Card_rare_05_1.png",
     "acquisition": [
       "[필드 보스] 혼재의 추오",
       "[업적 달성] 애니츠 대륙의 비밀",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "슈테른 네리아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_05_2.png",
+    "imgSrc": "Card_rare_05_2.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 아르데타인",
       "[호감도] 슈테른 - 네리아",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "시그나투스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_05_3.png",
+    "imgSrc": "Card_rare_05_3.png",
     "acquisition": [
       "[필드 보스] 시그나투스",
       "[업적 달성] 고철도 쓸모가 있다",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_05_4.png",
+    "imgSrc": "Card_rare_05_4.png",
     "acquisition": [
       "[던전] 아이히만의 연구기지",
       "[업적 달성] 아르데타인 모험기",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "제이",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_05_5.png",
+    "imgSrc": "Card_rare_05_5.png",
     "acquisition": [
       "[던전] 아이히만의 연구기지",
       "[업적 달성] 안드로이드 해방 운동",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "안톤",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_05_6.png",
+    "imgSrc": "Card_rare_05_6.png",
     "acquisition": [
       "[던전] 에어가이츠",
       "[업적 달성] 약물 밀매를 종식시키다",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "바에단",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_05_7.png",
+    "imgSrc": "Card_rare_05_7.png",
     "acquisition": [
       "[던전] 바에단의 은신처",
       "[퀘스트] 리겐스 마을 - 바에단의 최후",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "타르실라",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_06_0.png",
+    "imgSrc": "Card_rare_06_0.png",
     "acquisition": [
       "[필드 보스] 타르실라",
       "[업적 달성] 슈샤이어 대륙의 비밀",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "루아브",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_06_1.png",
+    "imgSrc": "Card_rare_06_1.png",
     "acquisition": [
       "[퀘스트] 슈샤이어 - 응징",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "시안",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_06_2.png",
+    "imgSrc": "Card_rare_06_2.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 슈샤이어",
       "[퀘스트] 슈샤이어 - 여명",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "마네스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_06_3.png",
+    "imgSrc": "Card_rare_06_3.png",
     "acquisition": [
       "[필드 보스] 마네스",
       "[업적 달성] 슈샤이어 모험기",
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "기드온",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_06_4.png",
+    "imgSrc": "Card_rare_06_4.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 베른 북부",
       "[호감도] 라니아 마을 - 기드온",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "가룸",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_06_5.png",
+    "imgSrc": "Card_rare_06_5.png",
     "acquisition": [
       "[던전] 고르곤의 둥지",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "페일린",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_06_6.png",
+    "imgSrc": "Card_rare_06_6.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 베른 북부",
       "[호감도] 고르곤의 둥지 - 페일린",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "고르곤",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_06_7.png",
+    "imgSrc": "Card_rare_06_7.png",
     "acquisition": [
       "[던전] 고르곤의 둥지"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "프록시마",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_07_0.png",
+    "imgSrc": "Card_rare_07_0.png",
     "acquisition": [
       "[필드 보스] 프록시마",
       "[업적 달성] 베른 북부 대륙의 비밀",
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에라스모",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_07_1.png",
+    "imgSrc": "Card_rare_07_1.png",
     "acquisition": [
       "[필드 보스] ",
       "[업적 달성] 보스 헌터 : 중급",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "두키킹",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_07_2.png",
+    "imgSrc": "Card_rare_07_2.png",
     "acquisition": [
       "[필드 보스] 두키왕",
       "[업적 달성] 두키 왕을 학살한 자",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "브리아레오스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_07_3.png",
+    "imgSrc": "Card_rare_07_3.png",
     "acquisition": [
       "[필드 보스] 브리아레오스",
       "[업적 달성] 얼음 반, 불 반 보상 많이주세요!",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "고르카그로스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_07_4.png",
+    "imgSrc": "Card_rare_07_4.png",
     "acquisition": [
       "[필드 보스] 고르카그로스",
       "[업적 달성] 세계 최강의 알껍질",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "수신 아포라스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_07_5.png",
+    "imgSrc": "Card_rare_07_5.png",
     "acquisition": [
       "[필드 보스] 수신 아포라스",
       "[업적 달성] 워터파크 개장합니다",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "실험체 타르마쿰",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_07_6.png",
+    "imgSrc": "Card_rare_07_6.png",
     "acquisition": [
       "[필드 보스] 실험체 타르마쿰",
       "[업적 달성] 말할 수 없는 비밀",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "솔 그랑데",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_07_7.png",
+    "imgSrc": "Card_rare_07_7.png",
     "acquisition": [
       "[필드 보스] ",
       "[업적 달성] 케나인의 기술력은 세계 제일!",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "엘레노아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_08_0.png",
+    "imgSrc": "Card_rare_08_0.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 로헨델",
       "[호감도] 엘조윈의 그늘 - 엘레노아",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아벤",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_08_1.png",
+    "imgSrc": "Card_rare_08_1.png",
     "acquisition": [
       "[퀘스트] 로헨델 - 아벤의 행방",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "게르디아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_08_2.png",
+    "imgSrc": "Card_rare_08_2.png",
     "acquisition": [
       "[퀘스트] 로헨델 - 엘조윈을 지키는 자",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "오렐다",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_08_3.png",
+    "imgSrc": "Card_rare_08_3.png",
     "acquisition": [
       "[호감도] 유리연꽃 호수 - 오렐다",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "몽환의 퀸",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_08_4.png",
+    "imgSrc": "Card_rare_08_4.png",
     "acquisition": [
       "[던전] 몽환의 궁전",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "몽환의 킹",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_08_5.png",
+    "imgSrc": "Card_rare_08_5.png",
     "acquisition": [
       "[던전] 몽환의 궁전",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "위대한 성 네리아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_08_6.png",
+    "imgSrc": "Card_rare_08_6.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 욘",
       "[호감도] 위대한 성 - 네리아",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "피에르",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_08_7.png",
+    "imgSrc": "Card_rare_08_7.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 욘",
       "[퀘스트] 욘 - 금지된 지역으로",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나잔",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_09_0.png",
+    "imgSrc": "Card_rare_09_0.png",
     "acquisition": [
       "[평판] 위대한 성 - 우마르 화장품의 새로운 역사",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "키즈라",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_09_1.png",
+    "imgSrc": "Card_rare_09_1.png",
     "acquisition": [
       "[던전] 기막힌 양조장",
       "[업적 달성] 맥주와 함께라면, 모두 친구!",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "에이케르",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_09_2.png",
+    "imgSrc": "Card_rare_09_2.png",
     "acquisition": [
       "[퀘스트] 욘 - 선조와 함께",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나베르",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_09_3.png",
+    "imgSrc": "Card_rare_09_3.png",
     "acquisition": [
       "[평판] 검은모루 작업장 - 시끄럽고, 울리고, 어지러워!",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "비올레",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_09_4.png",
+    "imgSrc": "Card_rare_09_4.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 페이튼",
       "[호감도] 칼라자 마을 - 비올레",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "굴딩",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_09_5.png",
+    "imgSrc": "Card_rare_09_5.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 페이튼",
       "[평판] 칼라자 마을 - 운명을 보는 눈",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "변절자 제페토",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_09_6.png",
+    "imgSrc": "Card_rare_09_6.png",
     "acquisition": [
       "[평판] 그늘진 절벽 - 그림자 수도원",
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아드모스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_09_7.png",
+    "imgSrc": "Card_rare_09_7.png",
     "acquisition": [
       "[업적 달성] 어둠을 밝힌 인연",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아이히만 박사",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_10_0.png",
+    "imgSrc": "Card_rare_10_0.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 아르데타인",
       "[모험의 서] 아르데타인",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "패자의 검",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_10_1.png",
+    "imgSrc": "Card_rare_10_1.png",
     "acquisition": [
       "[업적 달성] 루테란 동부 모험기",
       "[카드팩] 용감한 기사의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "진멸의 창",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_10_2.png",
+    "imgSrc": "Card_rare_10_2.png",
     "acquisition": [
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "갈기파도 항구 네리아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_10_3.png",
+    "imgSrc": "Card_rare_10_3.png",
     "acquisition": [
       "[호감도] 갈기파도 항구 - 네리아",
       "[카드팩] 용감한 기사의 카드 팩",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아비시나",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_10_4.png",
+    "imgSrc": "Card_rare_10_4.png",
     "acquisition": [
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "판다 푸푸",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_10_5.png",
+    "imgSrc": "Card_rare_10_5.png",
     "acquisition": [
       "[호감도] 판다 푸푸 섬 - 푸푸",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "샐리",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_10_6.png",
+    "imgSrc": "Card_rare_10_6.png",
     "acquisition": [
       "[호감도] 부서진 빙하의 섬 - 샐리",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "크누트",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_10_7.png",
+    "imgSrc": "Card_rare_10_7.png",
     "acquisition": [
       "[모험의 서] 욘",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아드린느",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_11_0.png",
+    "imgSrc": "Card_rare_11_0.png",
     "acquisition": [
       "[필드 보스] 아드린느",
       "[업적 달성] 나의 과거, 당신의 현재",
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "자하라",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_11_1.png",
+    "imgSrc": "Card_rare_11_1.png",
     "acquisition": [
       "[호감도] 니아 마을 - 자하라",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "리루",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_11_2.png",
+    "imgSrc": "Card_rare_11_2.png",
     "acquisition": [
       "[호감도] 니아 마을 - 리루",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나기",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_11_3.png",
+    "imgSrc": "Card_rare_11_3.png",
     "acquisition": [
       "[호감도] 니아 마을 - 나기",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "세토",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_11_4.png",
+    "imgSrc": "Card_rare_11_4.png",
     "acquisition": [
       "[던전] 나스카 온천",
       "[업적 달성] 이제 좀 적응되네...",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "키케라",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_11_5.png",
+    "imgSrc": "Card_rare_11_5.png",
     "acquisition": [
       "[던전] 오레하의 우물",
       "[업적 달성] 마음은 따뜻하겠지?",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "스텔라",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_11_6.png",
+    "imgSrc": "Card_rare_11_6.png",
     "acquisition": [
       "[업적 달성] 비탄에 잠긴 섬",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하이거",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_11_7.png",
+    "imgSrc": "Card_rare_11_7.png",
     "acquisition": [
       "[모험의 서] 베른 남부"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "루기네",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_12_0.png",
+    "imgSrc": "Card_rare_12_0.png",
     "acquisition": [
       "[업적] 마지막 레인저",
       "[물물교환] 떠돌이 상인 - 베른 남부",
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "제레온",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_12_1.png",
+    "imgSrc": "Card_rare_12_1.png",
     "acquisition": [
       "[업적] 속죄의 길",
       "[물물교환] 떠돌이 상인 - 베른 남부"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "베른 젠로드",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_12_3.png",
+    "imgSrc": "Card_rare_12_3.png",
     "acquisition": [
       "[업적] 우리는 베른의 창!",
       "[물물교환] 떠돌이 상인 - 베른 남부"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "칸다리아 네리아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_12_4.png",
+    "imgSrc": "Card_rare_12_4.png",
     "acquisition": [
       "[호감도] 칸다리아 영지 - 네리아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "신디",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_12_2.png",
+    "imgSrc": "Card_rare_12_2.png",
     "acquisition": [
       "[호감도] 칸다리아 영지 - 신디"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아르노",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_12_5.png",
+    "imgSrc": "Card_rare_12_5.png",
     "acquisition": [
       "[업적 달성] 고작 규율과 질서로 얼마나 취할 수 있겠어?",
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "바스키아",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_12_6.png",
+    "imgSrc": "Card_rare_12_6.png",
     "acquisition": [
       "[업적 달성] 강한 만큼 취하는 것이 너희 방식이라며?",
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "사일러스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_12_7.png",
+    "imgSrc": "Card_rare_12_7.png",
     "acquisition": [
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "앙케",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_13_0.png",
+    "imgSrc": "Card_rare_13_0.png",
     "acquisition": [
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "피엘라",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_13_1.png",
+    "imgSrc": "Card_rare_13_1.png",
     "acquisition": [
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "빌헬름",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_13_2.png",
+    "imgSrc": "Card_rare_13_2.png",
     "acquisition": [
       "[모험의 서] 로웬",
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하눈",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_07_2.png",
+    "imgSrc": "Card_Uncommon_07_2.png",
     "acquisition": [
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "마리나",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_07_3.png",
+    "imgSrc": "Card_Uncommon_07_3.png",
     "acquisition": [
       "[업적 달성] 오스피어의 소임",
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "디오게네스",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_14_2.png",
+    "imgSrc": "Card_rare_14_2.png",
     "acquisition": [
       "[모험의 서] 엘가시아",
       "[업적 달성] 하늘에서 만난 사람들"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "다이나웨일",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_14_3.png",
+    "imgSrc": "Card_rare_14_3.png",
     "acquisition": [
       "[업적 달성] 모험의 서 : 엘가시아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아자키엘",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_14_0.png",
+    "imgSrc": "Card_rare_14_0.png",
     "acquisition": [],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "벨루마테",
     "grade": 2,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/card_rare/Card_rare_14_1.png",
+    "imgSrc": "Card_rare_14_1.png",
     "acquisition": [],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "한이 서린 여인",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_00_0.png",
+    "imgSrc": "Card_Uncommon_00_0.png",
     "acquisition": [
       "[호감도] 소리의 숲 - 처녀귀신 련"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "다단",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_00_1.png",
+    "imgSrc": "Card_Uncommon_00_1.png",
     "acquisition": [
       "[퀘스트] 살란드 구릉지 - 유랑민들의 회합"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "자이언트 웜",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_00_2.png",
+    "imgSrc": "Card_Uncommon_00_2.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 유디아",
       "[퀘스트] 유디아 - 유랑민들의 회합"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "우르르",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_00_3.png",
+    "imgSrc": "Card_Uncommon_00_3.png",
     "acquisition": [
       "[호감도] 레이크바 - 장인 우르르"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "베나르",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_00_4.png",
+    "imgSrc": "Card_Uncommon_00_4.png",
     "acquisition": [
       "[업적 달성] 루테란 서부 모험기"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "카도건",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_00_5.png",
+    "imgSrc": "Card_Uncommon_00_5.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 루테란 서부",
       "[퀘스트] 루테란 서부 - 되찾은 왕국"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "몬테르크",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_00_6.png",
+    "imgSrc": "Card_Uncommon_00_6.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 진짜 유서를 찾아라!"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "비슈츠",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_00_7.png",
+    "imgSrc": "Card_Uncommon_00_7.png",
     "acquisition": [
       "[업적 달성] 루테란에서의 만남"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "베르하트",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_01_0.png",
+    "imgSrc": "Card_Uncommon_01_0.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 루테란 서부",
       "[퀘스트] 루테란 서부 - 잊혀진 문장을 찾아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "푸름 전사 브리뉴",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_01_1.png",
+    "imgSrc": "Card_Uncommon_01_1.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 타락한 푸름 전사"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "아자란",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_01_2.png",
+    "imgSrc": "Card_Uncommon_01_2.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 전열을 가다듬고"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "가비슈",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_01_3.png",
+    "imgSrc": "Card_Uncommon_01_3.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 전열을 가다듬고"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "집행관 솔라스",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_01_4.png",
+    "imgSrc": "Card_Uncommon_01_4.png",
     "acquisition": [
       "[퀘스트] 루테란 동부 - 성스러운 심판자들"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "토토이끼",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_01_5.png",
+    "imgSrc": "Card_Uncommon_01_5.png",
     "acquisition": [
       "[호감도] 토토실버 섬 - 토토장로"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "창조의 알",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_01_6.png",
+    "imgSrc": "Card_Uncommon_01_6.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 토토이크"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "수호자 페오스",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_01_7.png",
+    "imgSrc": "Card_Uncommon_01_7.png",
     "acquisition": [
       "[업적 달성] 모코코 마을 사람들"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "여울",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_02_0.png",
+    "imgSrc": "Card_Uncommon_02_0.png",
     "acquisition": [
       "[호감도] 항구도시 창천 - 여울"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하리",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_02_1.png",
+    "imgSrc": "Card_Uncommon_02_1.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "한손",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_02_2.png",
+    "imgSrc": "Card_Uncommon_02_2.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "호동",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_02_3.png",
+    "imgSrc": "Card_Uncommon_02_3.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "금강",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_02_4.png",
+    "imgSrc": "Card_Uncommon_02_4.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "삭월",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_02_5.png",
+    "imgSrc": "Card_Uncommon_02_5.png",
     "acquisition": [
       "[퀘스트] 델파이 현 - 만월이 뜬 고택"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "객주도사",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_02_6.png",
+    "imgSrc": "Card_Uncommon_02_6.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 애니츠",
       "[퀘스트] 애니츠 - 도사의 술상"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "수령도사",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_02_7.png",
+    "imgSrc": "Card_Uncommon_02_7.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 애니츠",
       "[퀘스트] 애니츠 - 지옥의 문턱에서"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "세비엘",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_03_0.png",
+    "imgSrc": "Card_Uncommon_03_0.png",
     "acquisition": [
       "[호감도] 토트리치 - 오네"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "지휘관 솔",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_03_1.png",
+    "imgSrc": "Card_Uncommon_03_1.png",
     "acquisition": [
       "[던전] 에어가이츠",
       "[업적 달성] 사막에서 핀 인연의 꽃"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "자베른",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_03_2.png",
+    "imgSrc": "Card_Uncommon_03_2.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 슈샤이어",
       "[호감도] 리겐스 마을 - 여명단 자베른"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "레이든",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_03_3.png",
+    "imgSrc": "Card_Uncommon_03_3.png",
     "acquisition": [
       "[퀘스트] 슈샤이어 - 짙은 눈안개"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나크슌",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_03_4.png",
+    "imgSrc": "Card_Uncommon_03_4.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 춤추는 혹한의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "포포",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_03_5.png",
+    "imgSrc": "Card_Uncommon_03_5.png",
     "acquisition": [
       "[호감도] 얼음나비 절벽 - 포포"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "도륙자 아르르",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_03_6.png",
+    "imgSrc": "Card_Uncommon_03_6.png",
     "acquisition": [
       "[카드팩] 노래하는 혹한 카드 팩",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나베갈",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_03_7.png",
+    "imgSrc": "Card_Uncommon_03_7.png",
     "acquisition": [
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "레나",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_04_0.png",
+    "imgSrc": "Card_Uncommon_04_0.png",
     "acquisition": [
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "프랭크",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_04_1.png",
+    "imgSrc": "Card_Uncommon_04_1.png",
     "acquisition": [
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "헨리",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_04_2.png",
+    "imgSrc": "Card_Uncommon_04_2.png",
     "acquisition": [
       "[호감도] 리베하임 - 연애 고수 헨리"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "미카엘과 노메드",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_04_3.png",
+    "imgSrc": "Card_Uncommon_04_3.png",
     "acquisition": [
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "몽환의 나이트",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_04_4.png",
+    "imgSrc": "Card_Uncommon_04_4.png",
     "acquisition": [
       "[던전] 몽환의 궁전"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "몽환의 룩",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_04_5.png",
+    "imgSrc": "Card_Uncommon_04_5.png",
     "acquisition": [
       "[던전] 몽환의 궁전"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "몽환의 비숍",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_04_6.png",
+    "imgSrc": "Card_Uncommon_04_6.png",
     "acquisition": [
       "[던전] 몽환의 궁전"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "시이라",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_04_7.png",
+    "imgSrc": "Card_Uncommon_04_7.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 아르테미스",
       "[호감도] 레온하트 - 시이라"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "루벤스타인 델 아르코",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_05_0.png",
+    "imgSrc": "Card_Uncommon_05_0.png",
     "acquisition": [
       "[평판] 얼어붙은 바다 - 원래 자리로"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "이마르",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_05_1.png",
+    "imgSrc": "Card_Uncommon_05_1.png",
     "acquisition": [
       "[호감도] 위대한 성 - 댄서 이마르"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "루티아",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_06_2.png",
+    "imgSrc": "Card_Uncommon_06_2.png",
     "acquisition": [
       "[호감도] 칼라자 마을 - 루티아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "모르페오",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_05_2.png",
+    "imgSrc": "Card_Uncommon_05_2.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 루테란 동부"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "모리나",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_05_3.png",
+    "imgSrc": "Card_Uncommon_05_3.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 유디아",
       "[호감도] 오즈혼 구릉지 - 모리나"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "월향도사",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_05_4.png",
+    "imgSrc": "Card_Uncommon_05_4.png",
     "acquisition": [
       "[물물교환] 떠돌이 상인 - 애니츠",
       "[퀘스트] 애니츠 - 영원한 청소"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "다쿠쿠",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_05_5.png",
+    "imgSrc": "Card_Uncommon_05_5.png",
     "acquisition": [
       "[호감도] 모코코마을 - 다쿠쿠"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "표류소녀 엠마",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_05_6.png",
+    "imgSrc": "Card_Uncommon_05_6.png",
     "acquisition": [
       "[호감도] 하얀파도 섬 - 표류 소녀 엠마"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "타냐 벤텀",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_05_7.png",
+    "imgSrc": "Card_Uncommon_05_7.png",
     "acquisition": [
       "[호감도] 해상 낙원 페이토 - 타냐 벤텀"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "고비우스 24세",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_06_0.png",
+    "imgSrc": "Card_Uncommon_06_0.png",
     "acquisition": [
       "[호감도] 고블린 섬 - 고비우스 24세"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "용병 세이라",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_06_1.png",
+    "imgSrc": "Card_Uncommon_06_1.png",
     "acquisition": [
       "[호감도] 슈테른 - 용병 세이라"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하리야",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_06_3.png",
+    "imgSrc": "Card_Uncommon_06_3.png",
     "acquisition": [
       "[호감도] 니아 마을 - 하리야"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "사트라",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_06_4.png",
+    "imgSrc": "Card_Uncommon_06_4.png",
     "acquisition": [
       "[업적] 베른 후일담"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "킬리언",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_06_5.png",
+    "imgSrc": "Card_Uncommon_06_5.png",
     "acquisition": [
       "[업적] 베른 남부 대륙의 비밀"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "오크 장로 질록",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_06_6.png",
+    "imgSrc": "Card_Uncommon_06_6.png",
     "acquisition": [
       "[호감도] 칸다리아 영지 - 질록"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "루드벡",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_06_7.png",
+    "imgSrc": "Card_Uncommon_06_7.png",
     "acquisition": [
       "[호감도] 벨리온 유적지 - 루드벡"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "파파",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_uncommon/card_uncommon_06_8.png",
+    "imgSrc": "card_uncommon_06_8.png",
     "acquisition": [
       "[호감도] 엘가시아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "로웬 젠로드",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_07_0.png",
+    "imgSrc": "Card_Uncommon_07_0.png",
     "acquisition": [
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "레퓌스",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_07_1.png",
+    "imgSrc": "Card_Uncommon_07_1.png",
     "acquisition": [
       "[사용] 로웬 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "프리우나",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_07_5.png",
+    "imgSrc": "Card_Uncommon_07_5.png",
     "acquisition": [
       "[업적 달성] 신들의 흔적"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "티엔",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_07_6.png",
+    "imgSrc": "Card_Uncommon_07_6.png",
     "acquisition": [
       "[호감도] 엘가시아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "유클리드",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_07_7.png",
+    "imgSrc": "Card_Uncommon_07_7.png",
     "acquisition": [
       "[호감도] 엘가시아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "키르케",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_08_0.png",
+    "imgSrc": "Card_Uncommon_08_0.png",
     "acquisition": [
       "[호감도] 엘가시아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하늘 고래",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_08_1.png",
+    "imgSrc": "Card_Uncommon_08_1.png",
     "acquisition": [
       "[업적 달성] 명예로운 명작"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "별자리 큰뱀",
     "grade": 1,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_08_2.png",
+    "imgSrc": "Card_Uncommon_08_2.png",
     "acquisition": [
       "[업적 달성] 일광건조"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "코니",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_Uncommon/Card_Uncommon_08_3.png",
+    "imgSrc": "Card_Uncommon_08_3.png",
     "acquisition": [
       "[업적 달성] 일광건조"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "리웰라",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_00_0.png",
+    "imgSrc": "Card_common_00_0.png",
     "acquisition": [
       "[퀘스트] 서리감옥 고원 - 슬퍼하지 말아요 그대"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "비비안",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_00_1.png",
+    "imgSrc": "Card_common_00_1.png",
     "acquisition": [
       "[호감도] 루테란 성 - 비비안"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "크란테루스",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_00_2.png",
+    "imgSrc": "Card_common_00_2.png",
     "acquisition": [
       "[퀘스트] 배꽃나무 자생지 - 참을 수 없는 굶주림"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "멜피셔스",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_00_3.png",
+    "imgSrc": "Card_common_00_3.png",
     "acquisition": [
       "[퀘스트] 라이아 단구 - 개념 있는 고용주"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나루니",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_00_4.png",
+    "imgSrc": "Card_common_00_4.png",
     "acquisition": [
       "[평판] 바다향기 숲 - 요리사"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "사자탈",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_00_5.png",
+    "imgSrc": "Card_common_00_5.png",
     "acquisition": [
       "[평판] 항구도시 창천 - 방목 사육"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "고블린 장로 발루",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_00_6.png",
+    "imgSrc": "Card_common_00_6.png",
     "acquisition": [
       "[카드팩] 새벽 잎사귀의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "테르나크",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_00_7.png",
+    "imgSrc": "Card_common_00_7.png",
     "acquisition": [
       "[퀘스트] 베른 북부 - 드러난 진실, 새로운 길"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "카드리",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_01_0.png",
+    "imgSrc": "Card_common_01_0.png",
     "acquisition": [
       "[카드팩] 조화로운 바다 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "투란",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_01_1.png",
+    "imgSrc": "Card_common_01_1.png",
     "acquisition": [
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "참크리",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_01_2.png",
+    "imgSrc": "Card_common_01_2.png",
     "acquisition": [
       "[퀘스트] 로헨델 - 놀란 참크리"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "몽환의 폰",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_01_3.png",
+    "imgSrc": "Card_common_01_3.png",
     "acquisition": [
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "텔파",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_01_4.png",
+    "imgSrc": "Card_common_01_4.png",
     "acquisition": [
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "이와르",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_01_5.png",
+    "imgSrc": "Card_common_01_5.png",
     "acquisition": [
       "[카드팩] 단단한 용기의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "첼라",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_01_6.png",
+    "imgSrc": "Card_common_01_6.png",
     "acquisition": [
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "나비",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_01_7.png",
+    "imgSrc": "Card_common_01_7.png",
     "acquisition": [
       "[호감도] 칼라자 마을 - 나비"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "데메타르",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_02_0.png",
+    "imgSrc": "Card_common_02_0.png",
     "acquisition": [
       "[카드팩] 어두운 잎사귀 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "두키칼리버",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_02_1.png",
+    "imgSrc": "Card_common_02_1.png",
     "acquisition": [
       "[평판] 두키 섬 - 두키왕을 잡아라"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "벨리타",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_02_2.png",
+    "imgSrc": "Card_common_02_2.png",
     "acquisition": [
       "[호감도] 노토스 섬 - 벨리타"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "네스",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_02_3.png",
+    "imgSrc": "Card_common_02_3.png",
     "acquisition": [
       "[호감도] 희망의 섬 - 네스"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "난민 파밀리아",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_02_4.png",
+    "imgSrc": "Card_common_02_4.png",
     "acquisition": [
       "[호감도] 도망자들의 마을 - 난민 파밀리아"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "다람쥐 욤",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_02_5.png",
+    "imgSrc": "Card_common_02_5.png",
     "acquisition": [
       "[호감도] 니아 마을 - 다람쥐 욤",
       "[평판] 합창단 선생님"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "여우 사피아노",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_02_6.png",
+    "imgSrc": "Card_common_02_6.png",
     "acquisition": [
       "[호감도] 니아 마을 - 여우 사피아노",
       "[평판] 합창단 선생님"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "기자 마티아스",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_02_7.png",
+    "imgSrc": "Card_common_02_7.png",
     "acquisition": [
       "[카드팩] 삭막한 초원의 카드 팩"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "베르베로",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_03_0.png",
+    "imgSrc": "Card_common_03_0.png",
     "acquisition": [
       "[호감도] 니아 마을 - 베르베로"
     ],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "알베르토",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_03_1.png",
+    "imgSrc": "Card_common_03_1.png",
     "acquisition": [],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "키에사",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_03_2.png",
+    "imgSrc": "Card_common_03_2.png",
     "acquisition": [],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   },
   {
     "name": "하템",
     "grade": 0,
-    "imgSrc": "https://cdn-lostark.game.onstove.com/EFUI_IconAtlas/Card_common/Card_common_03_3.png",
+    "imgSrc": "Card_common_03_3.png",
     "acquisition": [],
-    "awaken": 0,
+    "awaken": -1,
     "reserve": 0
   }
 ]

@@ -12,12 +12,15 @@ let cards = createSlice({
     name: "cards",
     initialState: cardData,
     reducers: {
-        changeCount(state, action) {
-            state.find(element => element.name === action.payload.name).count = action.payload.count;
+        changeAwaken(state, action) {
+            state.find(element => element.name === action.payload.name).awaken = action.payload.awaken;
+        },
+        changeReserve(state, action) {
+            state.find(element => element.name === action.payload.name).reserve = action.payload.reserve;
         }
     }
 });
-export let { changeCount } = cards.actions;
+export let { changeAwaken, changeReserve } = cards.actions;
 
 // persist
 const reducers = combineReducers({

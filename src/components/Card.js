@@ -3,29 +3,16 @@
 import { React, useEffect, useState } from "react";
 import "./Card.css";
 import { useDispatch } from "react-redux";
-import { changeCount } from "../reducers/store.js";
-import imgAwakenActive from "../assets/awaken_active.png";
-import imgAwakenInactive from "../assets/awaken_inactive.png";
+import { changeAwaken, changeReserve } from "../reducers/store.js";
 
-const countToAwaken = [0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5];
-const countToReserve = [0, 0, 1, 0, 1, 2, 0, 1, 2, 3, 0, 1, 2, 3, 4, 0];
+const maxAwaken = 5;
+const maxReserve = [15, 14, 12, 9, 5, 0];
 
 const Card = (props) => {
     let dispatch = useDispatch();
 
     const [updateShow, setUpdateShow] = useState(false);
     const [acquisitionShow, setAcquisitionShow] = useState(false);
-    const [awaken, setAwaken] = useState(0);
-    const [reserve, setReserve] = useState(0);
-
-    useEffect(() => {
-        setAwaken(countToAwaken[props.card.count]);
-        setReserve(countToReserve[props.card.count]);
-    }, [props.card.count]);
-
-    if (awaken == null) {
-        dispatch(changeCount({name: props.card.name, count: 0}));
-    }
 
     if (props.card == null) return null;
     return (
@@ -46,27 +33,47 @@ const Card = (props) => {
                     }
                 </div>
             }
-            <span className="card-count p-1 bg-secondary bg-gradient rounded" style={{color: "white"}}>+{reserve}</span>
+            <span className="card-count p-1 bg-secondary bg-gradient rounded" style={{color: "white"}}>+{props.card.reserve}</span>
             <img className={"card-img border-grade-" + props.card.grade} 
                  style={updateShow === true ? {opacity: "0.5"} : 
-                        props.card.count === 0 ? {opacity: "0.3"} : {opacity: "1"}}
-                 src={props.card.imgSrc} 
+                        props.card.awaken === -1 ? {opacity: "0.3"} : {opacity: "1"}}
+                 src={process.env.PUBLIC_URL + '/images/cardImg/' + props.card.imgSrc} 
                  alt="character"
                  height="240px"
                  onMouseEnter={() => {setUpdateShow(true)}}
                  onMouseLeave={() => {setUpdateShow(false)}}/>
             <div className="card-awaken">
             {
-                [...Array(awaken)].map((v, i) => {
+                [...Array(props.card.awaken === -1 ? 0 : props.card.awaken)].map((v, i) => {
                     return (
-                        <img key={i} src={imgAwakenActive} alt="awakenActive"/>
+                        <img key={i} src={process.env.PUBLIC_URL + '/images/awaken_active.png'} alt="awakenActive" style={{cursor:"pointer"}}
+                             onClick={() => {
+                                 let nextAwaken;
+                                 if (props.card.awaken === 1 && i === 0) {
+                                     nextAwaken = -1;
+                                 } else {
+                                     nextAwaken = i + 1;
+                                 }
+                                 dispatch(changeAwaken({name: props.card.name, awaken: nextAwaken}));
+                                 dispatch(changeReserve({name: props.card.name, reserve: 0}));
+                             }}/>
                     )
                 })
             }
             {
-                [...Array(5 - awaken)].map((v, i) => {
+                [...Array(5 - (props.card.awaken === -1 ? 0 : props.card.awaken))].map((v, i) => {
                     return (
-                        <img key={i} src={imgAwakenInactive} alt="awakenInactive"/>
+                        <img key={i} src={process.env.PUBLIC_URL + '/images/awaken_inactive.png'} alt="awakenInactive" style={{cursor:"pointer"}}
+                             onClick={() => {
+                                 let nextAwaken;
+                                 if (props.card.awaken === -1) {
+                                    nextAwaken = i + 1;
+                                 } else {
+                                    nextAwaken = i + props.card.awaken + 1;
+                                 }
+                                 dispatch(changeAwaken({name: props.card.name, awaken: nextAwaken}));
+                                 dispatch(changeReserve({name: props.card.name, reserve: 0}));
+                             }}/>
                     )
                 })
             }
@@ -80,29 +87,53 @@ const Card = (props) => {
                         <span className="me-2 align-middle">각성 단계</span>
                         <button className="btn btn-danger"
                                 onClick={() => {
-                                    dispatch(changeCount({name: props.card.name, count: props.card.count - awaken}));
+                                    let nextAwaken = props.card.awaken - 1;
+                                    if (nextAwaken >= -1) {
+                                        dispatch(changeAwaken({name: props.card.name, awaken: nextAwaken}));
+                                        dispatch(changeReserve({name: props.card.name, reserve: 0}));
+                                    }
                                 }}>━</button>
                         <button className="btn btn-primary"
                                 onClick={() => {
-                                    let next = props.card.count + awaken + 1;
-                                    if (next > 15) next = 15;
-                                    dispatch(changeCount({name: props.card.name, count: next}));
+                                    let nextAwaken = props.card.awaken + 1;
+                                    if (nextAwaken <= maxAwaken) {
+                                        dispatch(changeAwaken({name: props.card.name, awaken: nextAwaken}));
+                                        dispatch(changeReserve({name: props.card.name, reserve: 0}));
+                                    }
                                 }}>┼</button>
                     </div>
                     <div className="mt-2">
                         <span className="me-2 align-middle">보유 수량</span>
                         <button className="btn btn-danger"
                                 onClick={() => {
-                                    if (props.card.count > 0) { 
-                                        dispatch(changeCount({name: props.card.name, count: props.card.count - 1}));
+                                    let nextReserve = props.card.reserve - 1;
+                                    if (props.card.awaken === 0 && nextReserve === -1) {
+                                        dispatch(changeAwaken({name: props.card.name, awaken: -1}));
+                                    } else if (nextReserve >= 0) {
+                                        dispatch(changeReserve({name: props.card.name, reserve: nextReserve}));
                                     }
                                 }}>━</button>
                         <button className="btn btn-primary"
                                 onClick={() => {
-                                    if (props.card.count < 15) {
-                                        dispatch(changeCount({name: props.card.name, count: props.card.count + 1}));
+                                    let nextReserve = props.card.reserve + 1;
+                                    if (props.card.awaken === -1) {
+                                        dispatch(changeAwaken({name: props.card.name, awaken: 0}));
+                                    } else if (nextReserve <= maxReserve[props.card.awaken]) {
+                                        dispatch(changeReserve({name: props.card.name, reserve: nextReserve}));
                                     }
                                 }}>┼</button>
+                        
+                    </div>
+                    <div className="mt-2 text-center">
+                        <button className="btn btn-success btn-sm"
+                            onClick={() => {
+                                if (props.card.awaken === -1) {
+                                    dispatch(changeAwaken({name: props.card.name, awaken: 0}));
+                                    dispatch(changeReserve({name: props.card.name, reserve: maxReserve[0]}));
+                                } else {
+                                    dispatch(changeReserve({name: props.card.name, reserve: maxReserve[props.card.awaken]}));
+                                }
+                            }}>수량 MAX</button>
                     </div>
                 </div>
             }
