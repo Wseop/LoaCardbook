@@ -34,8 +34,9 @@ const Title = (props) => {
 
     return (
         <div className="container mt-2 d-flex flex-row justify-content-between" style={{background: "grey"}}>
-            <div className="item"><span className="m-0 p-1 fs-3 fw-bold" style={{color: "white"}}>{name}</span></div>
+            <div className="item"><span className="m-0 p-1 fs-3 fw-bold" style={{color: "white"}}>{`${name} (${props.collectCount}/${props.maxCount})`}</span></div>
             <div className="item d-flex align-items-center">
+                <span className="m-0 me-2 fw-bold" style={{color: "white"}}>{`각성 단계 ${props.awakenCount}(${props.expectedAwaken}) / ${props.maxAwakenCount}`}</span>
                 <button className="btn btn-outline-light btn-sm fw-bold" 
                         onClick={() => {
                             let show = props.effectShow;
@@ -102,37 +103,25 @@ const CardList = (props) => {
 };
 
 const Effect = (props) => {
-    const countToAwaken = [0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5];
     const effects = props.effects;
     const awakenEffect = props.awakenEffect;
     const cardList = props.cardList;
     
-    // 수집 갯수 및 각성 단계 계산
-    let collectCount = 0;
-    let awakenCount = 0;
-    cardList.map((v, i) => {
-        const count = props.cardData.find(element => element.name === v).count;
-        if (count > 0) {
-            collectCount++;
-            awakenCount += countToAwaken[count];
-        }
-    });
-
     if (!props.effectShow[props.index]) return null;
     return (
         <div className="container mt-2 pt-3 rounded" style={{background: "grey"}}>
             <div className="row">
                 <div className="col">
                     <div className="text-center fw-bold">
-                        <p style={collectCount >= cardList.length ? {color: "#63E925"} : 
-                                                                    {color: "#A9A9A9"}}>수집 효과</p>
+                        <p style={props.collectCount >= cardList.length || props.collectCount >= effects[0].collect ? {color: "#63E925"} : 
+                                                                                                          {color: "#A9A9A9"}}>수집 효과</p>
                     </div>
                     {
                         effects.map((effect, i) => {
                             return (
                                 <div key={i} className="text-center fw-bold">
-                                    <p style={collectCount >= cardList.length ? {color: "white"} : 
-                                                                                {color: "#A9A9A9"}}>{`${effect.category} +${effect.value}`}</p>
+                                    <p style={props.collectCount >= cardList.length || props.collectCount >= effect.collect ? {color: "white"} : 
+                                                                                                                  {color: "#A9A9A9"}}>{`${effect.category} +${effect.value}`}</p>
                                 </div>
                             )
                         })
@@ -143,10 +132,14 @@ const Effect = (props) => {
                         awakenEffect.effects.map((effect, i) => {
                             return (
                                 <div key={i} className="text-center fw-bold">
-                                    <p style={collectCount >= cardList.length && awakenCount >= Number(effect.count) ? {color: "#63E925"} : 
-                                                                                                                       {color: "#A9A9A9"}}>{`각성단계 합계 ${effect.count}`}</p>
-                                    <p style={collectCount >= cardList.length && awakenCount >= Number(effect.count) ? {color: "white"} : 
-                                                                                                                       {color: "#A9A9A9"}}>{`${awakenEffect.category.slice(0, 2)} 계열 피해량 증가 +${effect.value}%`}</p>
+                                    <p style={(props.collectCount >= cardList.length || props.collectCount >= effects[0].collect) && 
+                                              (props.awakenCount >= Number(effect.count)) ? {color: "#63E925"} : 
+                                                                                            {color: "#A9A9A9"}}
+                                    >{`각성단계 합계 ${effect.count}`}</p>
+                                    <p style={(props.collectCount >= cardList.length || props.collectCount >= effects[0].collect) && 
+                                              (props.awakenCount >= Number(effect.count)) ? {color: "white"} : 
+                                                                                            {color: "#A9A9A9"}}
+                                    >{`${awakenEffect.category.slice(0, 2)} 계열 피해량 증가 +${effect.value}%`}</p>
                                 </div>
                             )
                         })
@@ -173,11 +166,40 @@ const Content = (props) => {
 
     return (
         collections.map((v, i) => {
+            // 수집 갯수 및 각성 단계 계산
+            let collectCount = 0;
+            let awakenCount = 0;
+            v.cardList.map((cardName, i) => {
+                const awaken = cardData.find(element => element.name === cardName).awaken;
+                if (awaken > -1) {
+                    collectCount++;
+                    awakenCount += awaken;
+                }
+            });
+            // 보유량 -> 각성 단계 환산
+            let expectedAwaken = awakenCount;
+            v.cardList.map((cardName, i) => {
+                let card = cardData.find(element => element.name === cardName);
+                let awaken = card.awaken;
+                let reserve = card.reserve;
+
+                for (let i = awaken; reserve > i; i++) {
+                    reserve -= (i + 1);
+                    expectedAwaken++;
+                }
+            });
+
             return (
                 <div key={i} className="mb-5">
-                    <Title name={v.name} effectShow={effectShow} setEffectShow={setEffectShow} index={i} />
+                    <Title index={i} name={v.name} collectCount={collectCount} maxCount={v.cardList.length}
+                           awakenCount={awakenCount} maxAwakenCount={v.awakenEffect.effects[v.awakenEffect.effects.length - 1].count}
+                           expectedAwaken={expectedAwaken}
+                           effectShow={effectShow} setEffectShow={setEffectShow} />
                     <CardList cardList={v.cardList} cardData={cardData} />
-                    <Effect effects={v.effects} awakenEffect={v.awakenEffect} cardList={v.cardList} effectShow={effectShow} index={i} cardData={cardData} />
+                    <Effect index={i} effects={v.effects} awakenEffect={v.awakenEffect} 
+                            cardList={v.cardList} cardData={cardData}
+                            effectShow={effectShow}
+                            collectCount={collectCount} awakenCount={awakenCount} />
                 </div>
             )
         })

@@ -3528,6 +3528,37 @@
 		}
 	},
 	{
+		"name": "아베스타",
+		"cardList": ["사이카", "비올레", "굴딩", "칼도르"],
+		"effects": [
+			{
+				"category": "물리 방어력",
+				"value": "3"
+			},
+			{
+				"category": "마법 방어력",
+				"value": "3"
+			}
+		],
+		"awakenEffect": {
+			"category": "물질 피해",
+			"effects": [
+				{
+					"count": "8",
+					"value": "0.06"
+				},
+				{
+					"count": "16",
+					"value": "0.07"
+				},
+				{
+					"count": "20",
+					"value": "0.07"
+				}
+			]
+		}
+	},
+	{
 		"name": "녹슨 닻 무덤",
 		"cardList": ["검은이빨", "칼스 모론토", "국왕 실리안"],
 		"effects": [

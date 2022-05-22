@@ -11,13 +11,11 @@ statCategory.map((category, i) => {
     statIndex[category] = i;
 });
 
-const damageCategory = ["악마", "야수", "정령", "곤충", "기계", "식물", "물질", "인간", "불사"];
+const damageCategory = ["인간", "악마", "물질", "불사", "식물", "곤충", "정령", "야수", "기계"];
 let damageIndex = {};
 damageCategory.map((category, i) => {
     damageIndex[category] = i;
 });
-
-const countToAwaken = [0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5];
 
 const Title = (props) => {
     return (
@@ -30,8 +28,8 @@ const Title = (props) => {
 
 const Content = (props) => {
     let cardData = useSelector(state => state.cards);
-    let stats = new Array(12);
-    let damages = new Array(9);
+    let stats = new Array(statCategory.length);
+    let damages = new Array(damageCategory.length);
     stats.fill(0);
     damages.fill(0);
 
@@ -43,17 +41,17 @@ const Content = (props) => {
 
         // 활성화된 카드 수 & 각성 합계 계산
         collection.cardList.map((cardName, j) => {
-            let count = Number(cardData.find(element => element.name === cardName).count);
+            let awaken = cardData.find(element => element.name === cardName).awaken;
 
-            if (count > 0) {
+            if (awaken > -1) {
                 activeCount++;
-                awakenCount += countToAwaken[count];
+                awakenCount += awaken;
             }
         });
-        if (length === activeCount) {
+        if (length === activeCount || activeCount === Number(collection.effects[0].collect)) {
             // 수집 효과 +
             collection.effects.map((effect, j) => {
-                stats[statIndex[effect.category]]++;
+                stats[statIndex[effect.category]] += Number(effect.value);
             });
             // 각성 단계 효과 +
             let damageType = collection.awakenEffect.category.slice(0, 2);
@@ -103,9 +101,14 @@ const Content = (props) => {
 
 const Guide = () => {
     let guides = [
-        "카드 이름을 클릭하면 획득처 조회가 가능합니다.",
-        "모든 데이터는 브라우저의 로컬 저장소에 저장됩니다. (캐시 삭제 시 데이터가 날라갈 수 있습니다.)",
-        "크롬 브라우저에서 사용을 권장드립니다."
+        "[메인] | 추가 피해 ()안의 숫자는 현재 보유중인 카드를 최대로 각성 했을 시 가능한 수치를 의미합니다.",
+        "[카드] | 카드 이름을 클릭하면 획득처 조회가 가능합니다.",
+        "[카드] | 각성 단계 설정 시, 카드 아래 보석 모양을 눌러서 한 번에 설정이 가능합니다.",
+        "[카드] | 수량 MAX 버튼 클릭 시, 현재 설정된 각성 단계에서 가능한 최대 수량으로 세팅됩니다.",
+        "[세트] | 각성 단계의 ()안의 숫자는 현재 보유중인 카드를 최대로 각성 했을 시 가능한 각성 단계를 의미합니다.",
+        "[도감] | 각성 단계의 ()안의 숫자는 현재 보유중인 카드를 최대로 각성 했을 시 가능한 각성 단계를 의미합니다.",
+        "[기타] | 모든 데이터는 사용중인 브라우저의 로컬 저장소에 저장됩니다. (개인 PC에 저장됩니다.)",
+        "[기타] | PC 크롬 브라우저에서 사용을 권장드립니다."
     ];
 
     return (

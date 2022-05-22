@@ -103,6 +103,26 @@ const GrowCard = () => {
                     break;
             }
         });
+        common.sort((a, b) => {
+            if (a.name < b.name) return -1;
+            else return 1;
+        });
+        uncommon.sort((a, b) => {
+            if (a.name < b.name) return -1;
+            else return 1;
+        });
+        rare.sort((a, b) => {
+            if (a.name < b.name) return -1;
+            else return 1;
+        });
+        epic.sort((a, b) => {
+            if (a.name < b.name) return -1;
+            else return 1;
+        });
+        legend.sort((a, b) => {
+            if (a.name < b.name) return -1;
+            else return 1;
+        });
         setCommonCards([...common]);
         setUncommonCards([...uncommon]);
         setRareCards([...rare]);
