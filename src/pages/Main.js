@@ -30,8 +30,10 @@ const Content = (props) => {
     let cardData = useSelector(state => state.cards);
     let stats = new Array(statCategory.length);
     let damages = new Array(damageCategory.length);
+    let expectedDamages = new Array(damageCategory.length);
     stats.fill(0);
     damages.fill(0);
+    expectedDamages.fill(0);
 
     // 도감 수집 효과 계산
     collections.map((collection, i) => {
@@ -58,6 +60,26 @@ const Content = (props) => {
             collection.awakenEffect.effects.map((effect, j) => {
                 if (awakenCount >= effect.count) {
                     damages[damageIndex[damageType]] += parseFloat(effect.value);
+                }
+            });
+        }
+        // 보유량 -> 각성 단계 환산 & 예상 합계 계산
+        let expectedAwaken = awakenCount;
+        collection.cardList.map((cardName, j) => {
+            let card = cardData.find(element => element.name === cardName);
+            let awaken = card.awaken;
+            let reserve = card.reserve;
+
+            for (let i = awaken; reserve > i; i++) {
+                reserve -= (i + 1);
+                expectedAwaken++;
+            }
+        });
+        if (length === activeCount || activeCount === Number(collection.effects[0].collect)) {
+            let damageType = collection.awakenEffect.category.slice(0, 2);
+            collection.awakenEffect.effects.map((effect, j) => {
+                if (expectedAwaken >= effect.count) {
+                    expectedDamages[damageIndex[damageType]] += parseFloat(effect.value);
                 }
             });
         }
@@ -89,7 +111,7 @@ const Content = (props) => {
                     {
                         [...Array(9)].map((v, i) => {
                             return (
-                                <p key={i}>{`${damageCategory[i]} 추가 피해 : +${damages[i].toFixed(2)}%`}</p>
+                                <p key={i}>{`${damageCategory[i]} 추가 피해 : +${damages[i].toFixed(2)}% (+${expectedDamages[i].toFixed(2)}%)`}</p>
                             )
                         })
                     }

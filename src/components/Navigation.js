@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-2">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">LCS</Link>
+                <Link className="navbar-brand" to="/">LoaCS</Link>
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav">
                         <li className="nav-item">
