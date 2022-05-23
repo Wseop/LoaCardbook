@@ -7,6 +7,7 @@ import { changeAwaken, changeReserve } from "../reducers/store.js";
 
 const maxAwaken = 5;
 const maxReserve = [15, 14, 12, 9, 5, 0];
+const awakenToCount = [0, 1, 2, 4, 7, 11, 16];
 
 const Card = (props) => {
     let dispatch = useDispatch();
@@ -19,7 +20,7 @@ const Card = (props) => {
         <div className="card-wrap mt-2 fw-bold">
             <p className={"m-0 p-0 text-center data-grade-" + props.card.grade}
                style={{cursor: "pointer"}}
-               onClick={() => {setAcquisitionShow(!acquisitionShow)}}>{props.card.name}</p>
+               onClick={() => {setAcquisitionShow(!acquisitionShow)}}>{`${props.card.name}`}</p>
             {
                 acquisitionShow === false ? null : 
                 <div className="card-acquisition bg-dark text-white p-2 pb-0">
@@ -33,6 +34,7 @@ const Card = (props) => {
                     }
                 </div>
             }
+            <div className={"card-reserve text-center fw-bold data-grade-" + props.card.grade}>{`(${awakenToCount[props.card.awaken + 1] + props.card.reserve}/16)`}</div>
             <span className="card-count p-1 bg-secondary bg-gradient rounded" style={{color: "white"}}>+{props.card.reserve}</span>
             <img className={"card-img border-grade-" + props.card.grade} 
                  style={updateShow === true ? {opacity: "0.5"} : 

@@ -1,6 +1,12 @@
 .card-wrap {
     position: relative;
 }
+.card-reserve {
+    position: absolute;
+    z-index: 1;
+    top: 27px;
+    left: 65px;
+}
 .card-count {
     position: absolute;
     z-index: 1;
