@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter basename={process.env.REACT_APP_URL_BASE}>
       <Navigation />
       <Routes>
-        <Route exact path="/" element={<Main />} />
+        <Route path="/LoaCardbook" element={<Main />} />
         <Route path="/grow" element={<GrowCard />} />
         <Route path="/set" element={<CardSetEffect />} />
         <Route path="/collection" element={<CardCollection />} />
