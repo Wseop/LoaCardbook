@@ -574,7 +574,7 @@
     "grade": 3,
     "imgSrc": "Card_epic_03_3.png",
     "acquisition": [
-      "[원정대 영지] 무역 상인",
+      "[물물교환] 떠돌이 상인 - 로헨델",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
     "awaken": -1,
@@ -630,7 +630,6 @@
     "grade": 3,
     "imgSrc": "Card_epic_04_0.png",
     "acquisition": [
-      "[원정대 영지] 무역 상인",
       "[카드팩] 단단한 용기의 카드 팩"
     ],
     "awaken": -1,
@@ -708,7 +707,6 @@
     "grade": 3,
     "imgSrc": "Card_epic_05_0.png",
     "acquisition": [
-      "[원정대 영지] 무역 상인",
       "[카드팩] 신비한 풍류의 카드 팩"
     ],
     "awaken": -1,
