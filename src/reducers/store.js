@@ -12,7 +12,7 @@ const migrations = {
     0: (state) => {
         let newCards = [...state.cards];
         cardData.map((v, i) => {
-            newCards[i].acquisition = v.acquisition;
+            newCards[i].acquisition = [...v.acquisition];
         });
         state.cards = [...newCards];
 
