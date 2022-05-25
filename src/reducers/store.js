@@ -3,11 +3,29 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 // persist
 import storage from "redux-persist/lib/storage";
 import { combineReducers } from "redux";
-import { persistReducer } from "redux-persist";
+import { persistReducer, createMigrate } from "redux-persist";
 import thunk from "redux-thunk";
 
-// create cards state
 import cardData from "../assets/card.json";
+
+const migrations = {
+    0: (state) => {
+        let newCards = [...state.cards];
+        cardData.map((v, i) => {
+            newCards[i].acquisition = v.acquisition;
+        });
+        state.cards = [...newCards];
+
+        return {
+            ...state,
+            cards: [
+                ...state.cards
+            ]
+        };
+    }
+};
+
+// create cards state
 let cards = createSlice({
     name: "cards",
     initialState: cardData,
@@ -28,7 +46,9 @@ const reducers = combineReducers({
 });
 const persistConfig = {
     key: "root",
-    storage
+    version: 0,
+    storage,
+    migrate: createMigrate(migrations, { debug: false })
 };
 const persistedReducer = persistReducer(persistConfig, reducers);
 export default configureStore({
