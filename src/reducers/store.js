@@ -9,7 +9,7 @@ import thunk from "redux-thunk";
 import cardData from "../assets/card.json";
 
 const migrations = {
-    0: (state) => {
+    1: (state) => {
         let newCards = [...state.cards];
         cardData.map((v, i) => {
             newCards[i].acquisition = [...v.acquisition];
@@ -46,7 +46,7 @@ const reducers = combineReducers({
 });
 const persistConfig = {
     key: "root",
-    version: 0,
+    version: 1,
     storage,
     migrate: createMigrate(migrations, { debug: false })
 };
