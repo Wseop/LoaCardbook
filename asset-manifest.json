@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/LoaCardbook/static/css/main.23148310.css",
-    "main.js": "/LoaCardbook/static/js/main.99394b06.js",
+    "main.js": "/LoaCardbook/static/js/main.64bbdc43.js",
     "static/js/787.acf07ff7.chunk.js": "/LoaCardbook/static/js/787.acf07ff7.chunk.js",
     "index.html": "/LoaCardbook/index.html",
     "main.23148310.css.map": "/LoaCardbook/static/css/main.23148310.css.map",
-    "main.99394b06.js.map": "/LoaCardbook/static/js/main.99394b06.js.map",
+    "main.64bbdc43.js.map": "/LoaCardbook/static/js/main.64bbdc43.js.map",
     "787.acf07ff7.chunk.js.map": "/LoaCardbook/static/js/787.acf07ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23148310.css",
-    "static/js/main.99394b06.js"
+    "static/js/main.64bbdc43.js"
   ]
 }
